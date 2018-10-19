@@ -44,18 +44,18 @@ git --version
 ## Ok I'm ready to contribute
 
 1. FORK the repo 
- - Click the fork button in the upper right of a repo
- - This will copy that to your own github
- - When you make a pull request it will ask whoever is running the original repo if they want to add your changes
+  - Click the fork button in the upper right of a repo
+  - This will copy that to your own github
+  - When you make a pull request it will ask whoever is running the original repo if they want to add your changes
 2. CLONE the repo from your own
- - Be on the '<> Code tab'
- - Click the green 'Clone or download' button
- - Highlight the address and copy it
- - At the command line, enter 'git clone the-address-you-just-copied'
- - Get a listing of the files in the current directory
- - Change to the new directory your 'git clone' just made
- - Type 'git checkout -b someusefulname
- - You just created a new "branch". This is like a little save slot for your code, and the name on the slot is whatever you put for someusefulname.
+  - Be on the '<> Code tab'
+  - Click the green 'Clone or download' button
+  - Highlight the address and copy it
+  - At the command line, enter 'git clone the-address-you-just-copied'
+  - Get a listing of the files in the current directory
+  - Change to the new directory your 'git clone' just made
+  - Type 'git checkout -b someusefulname
+  - You just created a new "branch". This is like a little save slot for your code, and the name on the slot is whatever you put for someusefulname.
 3. Open up whatever program you use to write code
 4. Modify a file or add a new file
 5. Look over your changes and fix any typos, remove any unnecessary comments or console.logs, etc.
@@ -65,7 +65,7 @@ git add .
 git commit -m "Some message to describe the change you made."
 git push origin whatever-you-named-your-branch
 ```
-- If you can't remember your branch name, type 'git status' to get some basic info about your repo and branch.
+  - If you can't remember your branch name, type 'git status' to get some basic info about your repo and branch.
 6. The command line should offer you a link to make a pull request. Go to that link. Follow the on screen instructions to make a PR. 
 7. It's out of your hands, now the owner of the repo can decide whether to use your code or not.
 8. If you own that repo, you can go approve that request yourself.
