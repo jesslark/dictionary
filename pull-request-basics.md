@@ -48,14 +48,14 @@ git --version
  - This will copy that to your own github
  - When you make a pull request it will ask whoever is running the original repo if they want to add your changes
 2. CLONE the repo from your own
- - Be on the <> Code tab
+ - Be on the '<> Code tab'
  - Click the green 'Clone or download' button
  - Highlight the address and copy it
- - At the command line, enter 'git clone the-address-you-just-copied
+ - At the command line, enter 'git clone the-address-you-just-copied'
  - Get a listing of the files in the current directory
  - Change to the new directory your 'git clone' just made
  - Type 'git checkout -b someusefulname
- - You just created a new "branch". This is like a little save slot for your code, and the name on the slot is whateveryou put for someusefulname.
+ - You just created a new "branch". This is like a little save slot for your code, and the name on the slot is whatever you put for someusefulname.
 3. Open up whatever program you use to write code
 4. Modify a file or add a new file
 5. Look over your changes and fix any typos, remove any unnecessary comments or console.logs, etc.
