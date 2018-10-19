@@ -59,13 +59,13 @@ git --version
 3. Open up whatever program you use to write code
 4. Modify a file or add a new file
 5. Look over your changes and fix any typos, remove any unnecessary comments or console.logs, etc.
-5. Go back to the command line and type the following:
+6. Go back to the command line and type the following:
+  - If you can't remember your branch name, type 'git status' to get some basic info about your repo and branch.
 ```
 git add .
 git commit -m "Some message to describe the change you made."
 git push origin whatever-you-named-your-branch
 ```
-  - If you can't remember your branch name, type 'git status' to get some basic info about your repo and branch.
-6. The command line should offer you a link to make a pull request. Go to that link. Follow the on screen instructions to make a PR. 
-7. It's out of your hands, now the owner of the repo can decide whether to use your code or not.
-8. If you own that repo, you can go approve that request yourself.
+7. The command line should offer you a link to make a pull request. Go to that link. Follow the on screen instructions to make a PR. 
+8. It's out of your hands, now the owner of the repo can decide whether to use your code or not.
+9. If you own that repo, you can go approve that request yourself.
