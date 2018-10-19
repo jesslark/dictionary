@@ -13,6 +13,7 @@ echo Any text you want.
 ```
 - To find out where you are, type 'pwd'
 - To get a list of files and directories where you are right now, type 'ls'
+- To see the contents of a file, type 'cat filename' (Case matters, and the extension needs to be included, like: 'cat README.md')
 - To move to a directory in that list, type 'cd directoryname' (where directoryname is the name of the directory you want to change to)
 - to move back up a level, type 'cd ..'
 - To go back to the home directory, type 'cd ~'
