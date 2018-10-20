@@ -1,7 +1,25 @@
-.entry {
-    padding-top: 20px;
+.header,
+.footer {
+    width: 100%;
+    background: lightgray;
+    padding: 20px 0;
 }
 
-.wordy {
-    font-size: 2.5rem;
+.footer {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.entry {
+    margin: 40px 0 35px;
+}
+
+.word {
+    font-size: 2.4rem;
+    border-bottom: lightblue 4px solid;
+    padding: 10px 5px;
+}
+
+.definition {
+    margin-top: -5px;
 }
