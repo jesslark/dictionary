@@ -11,13 +11,13 @@ A pull request is just making some changes to some code, then asking the person 
 ```
 echo Any text you want.
 ```
-- To find out where you are, type 'pwd'
-- To get a list of files and directories where you are right now, type 'ls'
-- To see the contents of a file, type 'cat filename' (Case matters, and the extension needs to be included, like: 'cat README.md')
-- To move to a directory in that list, type 'cd directoryname' (where directoryname is the name of the directory you want to change to)
-- to move back up a level, type 'cd ..'
-- To go back to the home directory, type 'cd ~'
-- To make a new directory, type 'mkdir newdirectoryname' (where newdirectoryname is whatever you want to call your directory)
+- To find out where you are, type `pwd`
+- To get a list of files and directories where you are right now, type `ls`
+- To see the contents of a file, type `cat filename` (Case matters, and the extension needs to be included, like: `cat README.md`)
+- To move to a directory in that list, type `cd directoryname` (where directoryname is the name of the directory you want to change to)
+- to move back up a level, type `cd ..`
+- To go back to the home directory, type `cd ~`
+- To make a new directory, type `mkdir newdirectoryname` (where newdirectoryname is whatever you want to call your directory)
 - See? Not that scary. You made it do stuff! The command line is just a way to explicitly explain to the computer exactly what you want it to do. If you want to know what a command does, search for it on the web. 
 
 ## But I don't even understand the difference between 'git' and 'github'
@@ -51,10 +51,10 @@ git --version
   - Be on the '<> Code tab'
   - Click the green 'Clone or download' button
   - Highlight the address and copy it
-  - At the command line, enter 'git clone the-address-you-just-copied'
+  - At the command line, enter `git clone the-address-you-just-copied`
   - Get a listing of the files in the current directory
-  - Change to the new directory your 'git clone' just made
-  - Type 'git checkout -b someusefulname
+  - Change to the new directory your `git clone` just made
+  - Type `git checkout -b someusefulname`
   - You just created a new "branch". This is like a little save slot for your code, and the name on the slot is whatever you put for someusefulname.
 3. Open up whatever program you use to write code
 4. Modify a file or add a new file
