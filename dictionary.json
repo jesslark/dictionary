@@ -40,6 +40,10 @@
 	  "definition": "A database object that contains columns of related data."
   },
   {
+    "word": "CSS",
+    "definition": "'Cascading Style Sheets' is a style sheet language used for describing the look (e.g. colors, sizes, spacing, etc) document written in an online markup language"
+  },
+  {
     "word": "Data Science",
     "definition": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining."
   },
@@ -84,12 +88,20 @@
     "definition": "A task runner for JavaScript that allows you to automate a variety of time-consuming tasks."
   },
   {
+    "word": "HTML",
+    "definition": "An acronymn for 'Hypertext Markup Language', HTML is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages."
+  },
+  {
     "word": "IDE",
     "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, and intelligent code completion."
   },
   {
     "word": "Java",
     "definition": "A general-purpose object-oriented programming language."
+  },
+  {
+    "word": "JavaScript",
+    "definition": "Not connected with Java, JavaScript is an object-oriented programming language which is most commonly used alongside HTML and CSS for creating websites and web-based apps."
   },
   {
     "word": "JPEG",
@@ -159,15 +171,15 @@
     "word": "React",
     "definition": "A JavaScript library for building user interfaces."
   },
-  {    
+  {
     "word": "Responsive Design",
     "definition": "Websites that change to the size of the screen on which they're being viewed."
-  },	
-  {    
+  },
+  {
     "word": "Scala",
     "definition": "Scala is a general-purpose programming language providing support for functional programming and a strong static type system."
   },
-  {    
+  {
     "word": "Server",
     "definition": "A server is a computer program or a device that provides functionality for other programs or devices, called 'clients'. This architecture is called the client–server model, and a single overall computation is distributed across multiple processes or devices."
   },
