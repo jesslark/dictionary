@@ -22,7 +22,7 @@ fetch('./dictionary.json').then(function(response) {
       entry.appendChild(word);
       entry.appendChild(definition);
 
-      document.querySelector('.container').appendChild(entry);
+      document.querySelector('#dictionary').appendChild(entry);
     });
     console.log('Dictionary loaded and rendered.');
   });
