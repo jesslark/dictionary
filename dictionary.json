@@ -32,6 +32,10 @@
     "definition": "An error or flaw in the website or app that keeps it from running as expected."
   },
   {
+    "word": "C#",
+    "definition": "Pronounced 'C-Sharp' - A general-purpose object-oriented programming language developed by Microsoft."
+  },
+  {
     "word": "Cache",
     "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
   },
@@ -112,6 +116,10 @@
     "definition": "A local area network (LAN) is a system that connects computers and other devices that share a common communications line and wireless link, generally within a limited geographical area such as a home or office building."
   },
   {
+    "word": "LESS",
+    "definition": "Leaner Style Sheets - style sheet language that can be compiled into CSS. Filename: .less"
+  },
+  {
     "word": "Library",
     "definition": "A library is a collection of precompiled routines that a program can use. The routines, sometimes called modules, are stored in object format. Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them."
   },
@@ -126,6 +134,10 @@
   {
     "word": "Microsoft Windows",
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
+  },
+  {
+    "word": ".NET",
+    "definition": "Pronounced: 'dot net' - Operating system platform (or framework) developed by Microsoft."
   },
   {
     "word": "Nginx",
@@ -174,6 +186,10 @@
   {
     "word": "Responsive Design",
     "definition": "Websites that change to the size of the screen on which they're being viewed."
+  },
+  {
+    "word": "SASS",
+    "definition": "Syntactically Awesome Style Sheets - style sheet language that can be compiled into CSS. Filename: .scss"
   },
   {
     "word": "Scala",
