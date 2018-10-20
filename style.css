@@ -9,7 +9,13 @@
     height: 100px;
     margin-top: 20px;
 }
-
+.search{
+  display: flex;
+  padding: 10px;
+  border: 1px #bbb solid;
+  justify-content: right;
+  align-items: right;
+}
 .entry {
     margin: 40px 0 35px;
 }
