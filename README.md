@@ -1,5 +1,5 @@
 # dictionary-for-devs
-Dictionary of words that are assumed knowedge in the dev community but may be unfamiliar to new, or even seasoned, developers.
+Dictionary of words that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.
 
 ## Resources
 - How to do your first pull request: https://github.com/jessmear/dictionary-for-devs/blob/master/pull-request-basics.md
