@@ -4,5 +4,6 @@ Dictionary of words that are assumed knowedge in the dev community but may be un
 ## Resources
 - How to do your first pull request: https://github.com/jessmear/dictionary-for-devs/blob/master/pull-request-basics.md
 - Markdown cheat sheet: https://www.makeuseof.com/tag/printable-markdown-cheat-sheet/
+  - (Alternative) https://guides.github.com/features/mastering-markdown/
 - How to Contribute to Open Source: https://opensource.guide/how-to-contribute/
 - Hacktoberfest 2018: https://hacktoberfest.digitalocean.com/
