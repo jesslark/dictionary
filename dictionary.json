@@ -84,12 +84,20 @@
     "definition": "File transfer protocol (FTP) is a common method of transferring files via the internet from one host to another host."
   },
   {
+    "word": "GIF",
+    "definition": "Graphics Interchange Format, is a bitmap image format. Supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space. It also supports animations and allows a separate palette of up to 256 colors for each frame."
+  },
+  {
     "word": "Gulp",
     "definition": "A task runner for JavaScript that allows you to automate a variety of time-consuming tasks."
   },
   {
     "word": "HTML",
     "definition": "An acronymn for 'Hypertext Markup Language', HTML is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages."
+  },
+  {
+    "word": "HEVC",
+    "definition": "High Efficiency Video Coding, also known as H.265 and MPEG-H Part 2 is a video compression standard, one of the potential successors of H.264 AVC."
   },
   {
     "word": "IDE",
@@ -160,6 +168,10 @@
     "definition": "PHP is a popular general-purpose scripting language that is especially suited to web development."
   },
   {
+    "word": "PNG",
+    "definition": "Portable Network Graphics. A raster graphics format with lossless data compression. PNG was created as a replacement for the patented Graphics Interchange Format (GIF)."
+  }
+  {
     "word": "Programming Language",
     "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
   },
@@ -211,8 +223,4 @@
     "word": "Transaction",
     "definition": "An atomic unit of work that should either be completed in its entirety or not done at all."
   },
-  {
-    "word": "PNG",
-    "definition": "Portable Network Graphics. A raster graphics format with lossless data compression. PNG was created as a replacement for the patented Graphics Interchange Format (GIF)."
-  }
 ]
