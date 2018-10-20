@@ -124,7 +124,10 @@
     "definition": "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
   },
   {
-    "word": "Microsoft Windows",
+    "word": "MERN",
+    "definition": "Acronym that stands for the specific technology combination of MongoDB, Express, React, and Node.js."
+  },
+  { "word": "Microsoft Windows",
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
@@ -198,6 +201,10 @@
   {
     "word": "Source Code",
     "definition": "Source code is the collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a program, or executable. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
+  },
+  {
+    "word": "SSL",
+    "definition" : "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
   },
   {
     "word": "Thread",
