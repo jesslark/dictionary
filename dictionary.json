@@ -48,6 +48,10 @@
     "definition": "Database management system. Examples include: Oracle, MySQL, MSSQL, DB2, and some nosql varieties."
   },
   {
+    "word": "DDD",
+    "definition": "Domain-driven design is an approach to software development for complex needs by connecting the implementation to an evolving model. The premise of domain-driven design is the following: <ul class='browser-default'><li>placing the project's primary focus on the core domain and domain logic;</li><li>basing complex designs on a model of the domain;</li><li>initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.</li></ul>"
+  },
+  {
     "word": "Dev",
     "definition": "Short for 'Developer'."
   },
