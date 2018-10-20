@@ -2,5 +2,165 @@
   {
     "word": "Ajax",
     "definition": "Short for Asynchronous JavaScript and XML."
+  },
+  {
+    "word": "Algorithm",
+    "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
+  },
+  {
+    "word": "Back-end",
+    "definition": "Sometimes referred to as \"server-side\", this refers to what a user can't see like databases or servers. It organises and stores data."
+  },
+  {
+    "word": "Bit",
+    "definition": "A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte."
+  },
+  {
+    "word": "BIOS",
+    "definition": "Stand for Basic Input/Output System. It is firmware that allows you to change or view the 'settings' of the computer."
+  },
+  {
+    "word": "Browser",
+    "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Firefox, Microsoft Edge and Internet Explorer."
+  },
+  {
+    "word": "Bug",
+    "definition": "An error or flaw in the website or app that keeps it from running as expected."
+  },
+  {
+    "word": "Cache",
+    "definition": "When you download (read) a web page, the data is \"cached\", meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the \"refresh\" button on your browser."
+  },
+  {
+    "word": "Data Science",
+    "definition": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining."
+  },
+  {
+    "word": "DBMS",
+    "definition": "Database management system. Examples include: Oracle, MySQL, MSSQL, DB2, and some nosql varieties."
+  },
+  {
+    "word": "Dev",
+    "definition": "Short for \"Developer\""
+  },
+  {
+    "word": "Developer",
+    "definition": "A person or company that creates new products, especially computer products such as software."
+  },
+  {
+    "word": "DOM",
+    "definition": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects."
+  },
+  {
+    "word": "Esoteric Programming Languages",
+    "definition": "A programming language designed to push the boundaries of computer programming language design, as a proof of concept, as software art, or as a joke."
+  },
+  {
+    "word": "Firmware",
+    "definition": "Firmware is a general term for the various kinds of programs built into hardware. An example of firmware would be a BIOS."
+  },
+  {
+    "word": "Front-end",
+    "definition": "What a user sees and interacts with on a website or app."
+  },
+  {
+    "word": "FTP",
+    "definition": "File transfer protocol (FTP) is a common method of transferring files via the internet from one host to another host."
+  },
+  {
+    "word": "Gulp",
+    "definition": "A task runner for Javascript that allows you to automate a variety of time-consuming tasks"
+  },
+  {
+    "word": "IDE",
+    "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, and intelligent code completion."
+  },
+  {
+    "word": "Java",
+    "definition": "A general-purpose object-oriented programming language."
+  },
+  {
+    "word": "JPEG",
+    "definition": "JPEG stands for Joint Photographic Experts Group, which was the committee that created the file format known as JPEG. The format is commonlyl used for photos displayed on the world wide web."
+  },
+  {
+    "word": "LAN",
+    "definition": "A local area network (LAN) is a system that connects computers and other devices that share a common communications line and wireless link, generally within a limited geographical area such as a home or office building."
+  },
+  {
+    "word": "Libary",
+    "definition": "A library is a collection of precompiled routines that a program can use. The routines, sometimes called modules, are stored in object format. Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them."
+  },
+  {
+    "word": "Linux",
+    "definition": "Linux is an operating system, based on UNIX, that is open source and is used by many developers."
+  },
+  {
+    "word": "Machine Learning",
+    "definition": "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed"
+  },
+  {
+    "word": "Microsoft Windows",
+    "definition": "Pretty much a waste of money A commercial operating system developed by Microsoft."
+  },
+  {
+    "word": "Nginx",
+    "definition": "Nginx (/ˌɛndʒɪnˈɛks/ EN-jin-EKS[8]) (stylized as NGINX, NGiИX or nginx) is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache."
+  },
+  {
+    "word": "NLP",
+    "definition": "Natural Language Processing, the use of machine learning or AI techniques to proccess and produce human language."
+  },
+  {
+    "word": "Object",
+    "definition": "a value stored in memory that referenced by an identifier."
+  },
+  {
+    "word": "Object-oriented",
+    "definition": "A type of programming organized around objects."
+  },
+  {
+    "word": "Open Source",
+    "definition": "Software for which the original source code is made freely available and may be redistributed and modified."
+  },
+  {
+    "word": "Operating System",
+    "definition": "An operating system is the software that helps us access resources and applications, and manages resources. Examples of operating systems are Ubuntu, Windows 10, Macintosh, Debian, and Manjaro."
+  },
+  {
+    "word": "Process",
+    "definition": "A process is a running computer program."
+  },
+  {
+    "word": "PHP",
+    "definition": "PHP is a popular general-purpose scripting language that is especially suited to web development."
+  },
+  {
+    "word": "Programming Language",
+    "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
+  },
+  {
+    "word": "Python",
+    "definition": "Python is an interpreted high-level programming language for general-purpose programming."
+  },
+  {
+    "word": "React",
+    "definition": "A JavaScript library for building user interfaces."
+  },
+  {
+    "word": "SDK",
+    "definition": "Software Developers Kit. A collection of tools or programs used by devlopers."
+  },
+  {
+    "word": "Software",
+    "definition": "Software is a general term for the various kinds of programs used to operate computers and related devices."
+  },
+  {
+    "word": "Source Code",
+    "definition": "Source code is the collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a program, or executable. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
+  },
+  {
+    "word": "Thread",
+    "definition": "A thread is a unit of execution; i. e., a program or part of a program that a computer can execute concurrently with others. A thread is a process, or part of it."
   }
 ]

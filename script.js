@@ -8,16 +8,21 @@ fetch('./dictionary.json').then(function(response) {
   // Data handling and DOM manipulation
   response.json().then(function(data) {
     data.forEach(function(item) {
-      element = document.createElement('div');
+      entry = document.createElement('div');
       word = document.createElement('h3');
       definition = document.createElement('p');
 
       word.textContent = item.word;
-      definition.textContent = item.definition;
-      element.appendChild(word);
-      element.appendChild(definition);
+      word.classList = 'word';
 
-      document.querySelector('.container').appendChild(element);
+      definition.classList = 'definition';
+      definition.textContent = item.definition;
+
+      entry.classList = 'entry';
+      entry.appendChild(word);
+      entry.appendChild(definition);
+
+      document.querySelector('.container').appendChild(entry);
     });
     console.log('Dictionary loaded and rendered.');
   });
