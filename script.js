@@ -16,7 +16,7 @@ fetch('./dictionary.json').then(function(response) {
       word.classList = 'word';
 
       definition.classList = 'definition';
-      definition.textContent = item.definition;
+      definition.innerHTML = item.definition;
 
       entry.classList = 'entry';
       entry.appendChild(word);
