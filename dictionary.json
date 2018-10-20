@@ -1,43 +1,12 @@
 [
+
   {
-    "word": "AJAX",
-    "definition": "Short for Asynchronous JavaScript and XML."
+    "word": "Thread",
+    "definition": "A thread is a unit of execution; i. e., a program or part of a program that a computer can execute concurrently with others. A thread is a process, or part of it."
   },
   {
-    "word": "Algorithm",
-    "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
-  },
-  {
-    "word": "API",
-    "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
-  },
-  {
-    "word": "Back-end",
-    "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
-  },
-  {
-    "word": "Bit",
-    "definition": "A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte."
-  },
-  {
-    "word": "BIOS",
-    "definition": "Stands for Basic Input/Output System. It is firmware that allows you to change or view the 'settings' of the computer."
-  },
-  {
-    "word": "Browser",
-    "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Firefox, Microsoft Edge and Internet Explorer."
-  },
-  {
-    "word": "Bug",
-    "definition": "An error or flaw in the website or app that keeps it from running as expected."
-  },
-  {
-    "word": "Cache",
-    "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
-  },
-  {
-    "word": "Column family",
-	  "definition": "A database object that contains columns of related data."
+    "word": "Callback",
+    "definition": ""
   },
   {
     "word": "Data Science",
@@ -58,6 +27,22 @@
   {
     "word": "Developer",
     "definition": "A person or company that creates new products, especially computer products such as software."
+  },
+  {
+    "word": "AJAX",
+    "definition": "Short for Asynchronous JavaScript and XML."
+  },
+  {
+    "word": "Algorithm",
+    "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
+  },
+  {
+    "word": "API",
+    "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
+  },
+  {
+    "word": "Back-end",
+    "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
   },
   {
     "word": "DOM",
@@ -88,6 +73,30 @@
     "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, and intelligent code completion."
   },
   {
+    "word": "Bit",
+    "definition": "A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte."
+  },
+  {
+    "word": "BIOS",
+    "definition": "Stands for Basic Input/Output System. It is firmware that allows you to change or view the 'settings' of the computer."
+  },
+  {
+    "word": "Browser",
+    "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Firefox, Microsoft Edge and Internet Explorer."
+  },
+  {
+    "word": "Bug",
+    "definition": "An error or flaw in the website or app that keeps it from running as expected."
+  },
+  {
+    "word": "Cache",
+    "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
+  },
+  {
+    "word": "Column family",
+	  "definition": "A database object that contains columns of related data."
+  },
+  {
     "word": "Java",
     "definition": "A general-purpose object-oriented programming language."
   },
@@ -100,12 +109,12 @@
     "definition": "A local area network (LAN) is a system that connects computers and other devices that share a common communications line and wireless link, generally within a limited geographical area such as a home or office building."
   },
   {
-    "word": "Library",
-    "definition": "A library is a collection of precompiled routines that a program can use. The routines, sometimes called modules, are stored in object format. Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them."
-  },
-  {
     "word": "Linux",
     "definition": "Linux is an operating system, based on UNIX, that is open source and is used by many developers."
+  },
+  {    
+    "word": "Responsive Design",
+    "definition": "Websites that change to the size of the screen on which they're being viewed."
   },
   {
     "word": "Machine Learning",
@@ -159,10 +168,7 @@
     "word": "React",
     "definition": "A JavaScript library for building user interfaces."
   },
-  {    
-    "word": "Responsive Design",
-    "definition": "Websites that change to the size of the screen on which they're being viewed."
-  },	
+	
   {    
     "word": "Scala",
     "definition": "Scala is a general-purpose programming language providing support for functional programming and a strong static type system."
@@ -184,11 +190,11 @@
     "definition": "Source code is the collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a program, or executable. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
   },
   {
-    "word": "Thread",
-    "definition": "A thread is a unit of execution; i. e., a program or part of a program that a computer can execute concurrently with others. A thread is a process, or part of it."
-  },
-  {
     "word": "Transaction",
     "definition": "An atomic unit of work that should either be completed in its entirety or not done at all."
+  },
+  {
+    "word": "Library",
+    "definition": "A library is a collection of precompiled routines that a program can use. The routines, sometimes called modules, are stored in object format. Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them."
   }
 ]
