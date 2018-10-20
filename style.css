@@ -1,7 +1,7 @@
 .header,
 .footer {
     width: 100%;
-    background: lightgray;
+    background: lightblue;
     padding: 20px 0;
 }
 
@@ -10,14 +10,23 @@
     margin-top: 20px;
 }
 
+#dictionary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .entry {
-    margin: 40px 0 35px;
+    box-sizing: border-box;
+    width: 27%;
+    padding: 10px;
+    margin: 2%;
 }
 
 .word {
     font-size: 2.4rem;
     border-bottom: lightblue 4px solid;
     padding: 10px 5px;
+    margin-top: 0;
 }
 
 .definition {
