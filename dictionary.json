@@ -167,6 +167,10 @@
     "word": "Scala",
     "definition": "Scala is a general-purpose programming language providing support for functional programming and a strong static type system."
   },
+  {    
+    "word": "Server",
+    "definition": "A server is a computer program or a device that provides functionality for other programs or devices, called 'clients'. This architecture is called the client–server model, and a single overall computation is distributed across multiple processes or devices."
+  },
   {
     "word": "SDK",
     "definition": "Software Developers Kit. A collection of tools or programs used by devlopers."
