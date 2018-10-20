@@ -237,5 +237,13 @@
   {
     "word": "PNG",
     "definition": "Portable Network Graphics. A raster graphics format with lossless data compression. PNG was created as a replacement for the patented Graphics Interchange Format (GIF)."
+  },
+  {
+    "word": "OOCSS",
+    "definition": "'Object oriented CSS' is a way to write CSS proposed by web developer Nicole Sullivan in 2008, Her goal was to make dynamic CSS more manageable by applying the principles of object oriented design to CSS."
+  },
+  {
+    "word": "BEM",
+    "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
   }
 ]
