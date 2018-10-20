@@ -194,5 +194,9 @@
   {
     "word": "Transaction",
     "definition": "An atomic unit of work that should either be completed in its entirety or not done at all."
+  },
+  {
+    "word": "PNG",
+    "definition": "Portable Network Graphics. A raster graphics format with lossless data compression. PNG was created as a replacement for the patented Graphics Interchange Format (GIF)."
   }
 ]
