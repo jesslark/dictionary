@@ -257,5 +257,9 @@
   {
     "word": "BEM",
     "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
+  },
+  {
+    "word": "Continuous Delivery (CD)",
+    "definition": "CD is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when release software, doing so manually. The goal is to build, test and release software with greater speed and frequency."
   }
 ]
