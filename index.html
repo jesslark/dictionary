@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dictionary for Developers</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dictionary for Developers</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <div class="container">
     <h1>Dictionary for Developers</h1>
     <div class="entry">
@@ -183,5 +186,29 @@
         <p class="definition">A thread is a unit of execution; i. e., a program or part of a program that a computer can execute concurrently with others. A thread is a process, or part of it.</p>
     </div>
 </div>
+=======
+  <div class="header">
+    <div class="container">
+      <h1>Dictionary for Developers</h1>
+      <h5>Dictionary of words that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.</h5>
+    </div>
+  </div>
+    <div class="container">
+      <h3>Search</h3>
+      <input type="text" id="edit_search" onkeyup="javascript: find_my_div();" placeholder="Search in words and definitions here">
+    </div>
+  <div class="container">
+    <div id="dictionary"></div>
+    <!-- Populate with script.js -->
+  </div>
+  <div class="footer">
+    <div class="container">
+      <p>For more information about DevDictionary, see the <a href="https://github.com/jessmear/dictionary-for-devs">github repo</a>.</p>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
 </body>
+
 </html>
