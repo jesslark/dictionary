@@ -261,5 +261,13 @@
   {
     "word": "Continuous Integration (CI)",
     "definition": "CI is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early."
+  },
+  {
+    "word": "AngularJS",
+    "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
+  },
+  {
+    "word": "Web Worker",
+    "definition": "JavaScript script executed from an HTML page that runs in the background, independently of user-interface scripts that may also have been executed from the same HTML page."
   }
 ]
