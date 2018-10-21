@@ -16,10 +16,6 @@
     "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
   },
   {
-    "word": "BEM",
-    "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
-  },
-  {
     "word": "Bit",
     "definition": "A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte."
   },
@@ -28,16 +24,12 @@
     "definition": "Stands for Basic Input/Output System. It is firmware that allows you to change or view the 'settings' of the computer."
   },
   {
+    "word": "Bootstrap",
+    "definition": "A popular front-end framework often used to build websites quickly using pre-defined CSS styles for design elements such as layout, typography, color and much more."
+  },
+  {
     "word": "Browser",
     "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Firefox, Microsoft Edge and Internet Explorer."
-  },
-  {
-    "word": "Buffer",
-    "definition": "A data buffer (or just buffer) is a region of a physical memory storage used to temporarily store data while it is being moved from one place to another."
-  },
-  {
-    "word": "Buffer overflow",
-    "definition": "In information security and programming, a buffer overflow, or buffer overrun, is an anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations."
   },
   {
     "word": "Bug",
@@ -53,7 +45,7 @@
   },
   {
     "word": "Column family",
-	  "definition": "A database object that contains columns of related data."
+    "definition": "A database object that contains columns of related data."
   },
   {
     "word": "CSS",
@@ -80,12 +72,12 @@
     "definition": "A person or company that creates new products, especially computer products such as software."
   },
   {
-    "word": "DNS",
-    "definition": "The Domain Name System (DNS) is a hierarchical decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities."
-  },
-  {
     "word": "DOM",
     "definition": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects."
+  },
+  {
+    "word": "DRY",
+    "definition": "Don't repeat yourself. DRY is a basic principle that encourages programmers to write efficient, readable code not matter what language you are using."
   },
   {
     "word": "Esoteric Programming Language",
@@ -156,6 +148,10 @@
     "definition": "Linux is an operating system, based on UNIX, that is open source and is used by many developers."
   },
   {
+    "word": "Lorem Ipsum",
+    "definition": "In front-end development, Lorem Ipsum is often used as placeholder text during the design process, especially when meaningful content may not yet be available. Free Lorem Ipsum generators can be found online."
+  },
+  {
     "word": "Machine Learning",
     "definition": "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
   },
@@ -187,20 +183,12 @@
     "definition": "A type of programming organized around objects."
   },
   {
-    "word": "OOCSS",
-    "definition": "'Object oriented CSS' is a way to write CSS proposed by web developer Nicole Sullivan in 2008, Her goal was to make dynamic CSS more manageable by applying the principles of object oriented design to CSS."
-  },
-  {
     "word": "Open Source",
     "definition": "Software for which the original source code is made freely available and may be redistributed and modified."
   },
   {
     "word": "Operating System",
     "definition": "An operating system is the software that helps us access resources and applications, and manages resources. Examples of operating systems are Ubuntu, Windows 10, Macintosh, Debian, and Manjaro."
-  },
-  {
-    "word": "ORM",
-    "definition": "Object-Relational Mapping (ORM) is a mechanism to link classes of an object-oriented (OO) programming language to tables of a relational database management system (RDBMS)."
   },
   {
     "word": "Process",
@@ -271,16 +259,16 @@
     "definition": "Top Level Domain. One of the domains at the highest level in the hierarchical Domain Name System of the Internet (e.g., *.com, *.net, *.org)."
   },
   {
-    "word": "TLS",
-    "definition": "Transport Layer Security. Cryptographic protocol designed to provide communications security over a computer network. It deprecated SSL."
-  },
-  {
     "word": "Transaction",
     "definition": "An atomic unit of work that should either be completed in its entirety or not done at all."
   },
   {
-    "word": "TypeScript",
-    "definition": "Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language."
+    "word": "OOCSS",
+    "definition": "'Object oriented CSS' is a way to write CSS proposed by web developer Nicole Sullivan in 2008, Her goal was to make dynamic CSS more manageable by applying the principles of object oriented design to CSS."
+  },
+  {
+    "word": "BEM",
+    "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
   },
   {
     "word": "AngularJS",
@@ -289,9 +277,5 @@
   {
     "word": "Web Worker",
     "definition": "JavaScript script executed from an HTML page that runs in the background, independently of user-interface scripts that may also have been executed from the same HTML page."
-  },
-  {
-    "word": "WebAssembly",
-    "definition": "WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
   }
 ]
