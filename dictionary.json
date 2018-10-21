@@ -104,6 +104,10 @@
     "definition": "An acronymn for 'Hypertext Markup Language', HTML is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages."
   },
   {
+    "word": "HTTP",
+    "definition": "An acronymn for 'Hypertext Transfer Protocol', HTTP is a application protocol for distributed, colaborative, hypermedia information systems. HTTP is the foundation of data comunication for the World Wide Web"
+  },
+  {
     "word": "HEVC",
     "definition": "High Efficiency Video Coding, also known as H.265 and MPEG-H Part 2 is a video compression standard, one of the potential successors of H.264 AVC."
   },
@@ -249,6 +253,10 @@
   {
     "word": "Transaction",
     "definition": "An atomic unit of work that should either be completed in its entirety or not done at all."
+  },
+  {
+    "word": "WWW",
+    "definition": "Acronym for World Wide Web, is an information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet"
   },
   {
     "word": "OOCSS",
