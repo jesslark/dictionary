@@ -257,5 +257,9 @@
   {
     "word": "BEM",
     "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
+  },
+  {
+    "word": "TypeScript",
+    "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
   }
 ]
