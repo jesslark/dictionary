@@ -257,5 +257,13 @@
   {
     "word": "BEM",
     "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
+  },
+  {
+    "word": "AngularJS",
+    "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
+  },
+  {
+    "word": "Web Worker",
+    "definition": "JavaScript script executed from an HTML page that runs in the background, independently of user-interface scripts that may also have been executed from the same HTML page."
   }
 ]
