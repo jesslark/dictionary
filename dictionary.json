@@ -261,5 +261,13 @@
   {
     "word": "TDD",
     "definition": "Test Driven Development (TDD) is a software development process that relies on the repetition of a very short development cycle: <ul class='browser-default'><li>Add a test (initialy failing)</li><li>Run all tests and see if the new one fails</li><li>Write some code</li><li>Run tests</li><li>Refactor code</li><li>Repeat</li></ul>"
+  },
+  {
+    "word": "AngularJS",
+    "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
+  },
+  {
+    "word": "Web Worker",
+    "definition": "JavaScript script executed from an HTML page that runs in the background, independently of user-interface scripts that may also have been executed from the same HTML page."
   }
 ]
