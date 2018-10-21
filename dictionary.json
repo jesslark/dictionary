@@ -261,5 +261,13 @@
   {
     "word": "Continuous Delivery (CD)",
     "definition": "CD is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when release software, doing so manually. The goal is to build, test and release software with greater speed and frequency."
+  },
+  {
+    "word": "AngularJS",
+    "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
+  },
+  {
+    "word": "Web Worker",
+    "definition": "JavaScript script executed from an HTML page that runs in the background, independently of user-interface scripts that may also have been executed from the same HTML page."
   }
 ]
