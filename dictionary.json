@@ -53,7 +53,7 @@
   },
   {
     "word": "Column family",
-	  "definition": "A database object that contains columns of related data."
+    "definition": "A database object that contains columns of related data."
   },
   {
     "word": "CSS",
@@ -163,7 +163,8 @@
     "word": "MERN",
     "definition": "Acronym that stands for the specific technology combination of MongoDB, Express, React, and Node.js."
   },
-  { "word": "Microsoft Windows",
+  {
+    "word": "Microsoft Windows",
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
@@ -238,11 +239,11 @@
     "word": "Scala",
     "definition": "Scala is a general-purpose programming language providing support for functional programming and a strong static type system."
   },
-  {    
+  {
     "word": "SEO",
     "definition": "Search engine optimization is the method of gaining traffic (Users) to your website through search engines like Google, Bing etc by ranking on the first page for particular keywords"
   },
-  {    
+  {
     "word": "Server",
     "definition": "A server is a computer program or a device that provides functionality for other programs or devices, called 'clients'. This architecture is called the client–server model, and a single overall computation is distributed across multiple processes or devices."
   },
@@ -260,7 +261,7 @@
   },
   {
     "word": "SSL",
-    "definition" : "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
+    "definition": "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
   },
   {
     "word": "Thread",
@@ -293,5 +294,9 @@
   {
     "word": "WebAssembly",
     "definition": "WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
+  },
+  {
+    "word": "Flutter",
+    "definition": "Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS."
   }
 ]
