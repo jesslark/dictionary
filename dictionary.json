@@ -293,5 +293,9 @@
   {
     "word": "WebAssembly",
     "definition": "WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
+  },
+  {
+    "word": "CORS",
+    "definition": "Cross-origin resource sharing (CORS) is a mechanism that allows web applications to access resources from different origin."
   }
 ]
