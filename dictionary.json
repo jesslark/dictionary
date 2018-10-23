@@ -167,7 +167,8 @@
     "word": "MERN",
     "definition": "Acronym that stands for the specific technology combination of MongoDB, Express, React, and Node.js."
   },
-  { "word": "Microsoft Windows",
+  {
+    "word": "Microsoft Windows",
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
@@ -268,7 +269,7 @@
   },
   {
     "word": "SSL",
-    "definition" : "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
+    "definition": "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
   },
   {
     "word": "Thread",
@@ -329,6 +330,9 @@
   {
     "word": "CSV",
     "definition": "Is a comma-separated values file, which allows data to be saved in a tabular format"
+  },
+  {
+    "word": "Flutter",
+    "definition": "Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS."
   }
 ]
-
