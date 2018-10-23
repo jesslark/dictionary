@@ -4,6 +4,10 @@
     "definition": "Short for Asynchronous JavaScript and XML."
   },
   {
+    "word": "UAT (User Acceptance Testing)",
+    "definition": "Formal testing done often by the user, with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies the acceptance criteria and to enable the user to determine whether or not to accept the system."
+  },
+  {
     "word": "Algorithm",
     "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
   },
@@ -56,6 +60,10 @@
     "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
   },
   {
+    "word": "Cloud Computing",
+    "definition": "Cloud computing is the the use of various services, such as software development platforms, servers, storage and software, over the internet, often referred to as the cloud."
+  },
+  {
     "word": "Column family",
     "definition": "A database object that contains columns of related data."
   },
@@ -63,6 +71,10 @@
     "word": "CSS",
     "definition": "'Cascading Style Sheets' is a style sheet language used for describing the look (e.g. colors, sizes, spacing, etc) document written in an online markup language"
   },
+  {
+    "word": "Database",
+    "definition": "A database is an organized collection of data. More specifically, a database is an electronic system that allows data to be easily accessed, manipulated and updated."
+  }
   {
     "word": "Data Science",
     "definition": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining."
@@ -110,6 +122,10 @@
   {
     "word": "GIF",
     "definition": "Graphics Interchange Format, is a bitmap image format. Supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space. It also supports animations and allows a separate palette of up to 256 colors for each frame."
+  },
+  {
+    "word": "Go",
+    "definition": "Go is an open source programming language, created at Google. You can use it to write back-end code for Mac, Windows and Linux that is highly performant. It is sometimes referred to as 'Golang' to make it easier to Google."
   },
   {
     "word": "GraphQL",
@@ -279,6 +295,10 @@
     "word": "Source Code",
     "definition": "Source code is the collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a program, or executable. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
   },
+    {
+    "word": "SQL ",
+    "definition": "Structured Query Language (SQL) is a standard computer language for relational database management and data manipulation."
+  },
   {
     "word": "SSL",
     "definition": "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
@@ -327,6 +347,10 @@
   {
     "word": "Continuous Integration (CI)",
     "definition": "CI is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early."
+  },
+  {
+    "word": "Continuous Delivery (CD)",
+    "definition": "CD is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, when release software, doing so manually. The goal is to build, test and release software with greater speed and frequency."
   },
   {
     "word": "AngularJS",
