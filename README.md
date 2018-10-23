@@ -7,3 +7,7 @@ Dictionary of words that are assumed knowledge in the dev community but may be u
   - (Alternative) https://guides.github.com/features/mastering-markdown/
 - How to Contribute to Open Source: https://opensource.guide/how-to-contribute/
 - Hacktoberfest 2018: https://hacktoberfest.digitalocean.com/
+
+## Contribute
+
+- To contribute just with words and their definitions, check [dictionary.json](/dictionary.json).
