@@ -291,6 +291,10 @@
     "definition": "API that uses HTTP requests to GET, PUT, POST and DELETE data. REST API is based on representational state transfer (REST) technology, an architectual style and approach to communications, often used in web services development."
   },
   {
+    "word": "TDD",
+    "definition": "Test Driven Development (TDD) is a software development process that relies on the repetition of a very short development cycle: <ul class='browser-default'><li>Add a test (initialy failing)</li><li>Run all tests and see if the new one fails</li><li>Write some code</li><li>Run tests</li><li>Refactor code</li><li>Repeat</li></ul>"
+  },
+  {
     "word": "AngularJS",
     "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
   },
