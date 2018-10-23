@@ -283,6 +283,10 @@
     "definition": "Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language."
   },
   {
+    "word": "TypeScript",
+    "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
+  },
+  {
     "word": "AngularJS",
     "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
   },
