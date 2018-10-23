@@ -219,6 +219,10 @@
     "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
   },
   {
+    "word": "PWAs",
+    "definition": "Progressive Web Apps. a web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native mobile applications."
+  },
+  {
     "word": "Python",
     "definition": "Python is an interpreted high-level programming language for general-purpose programming."
   },
