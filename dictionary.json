@@ -112,6 +112,10 @@
     "definition": "Graphics Interchange Format, is a bitmap image format. Supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space. It also supports animations and allows a separate palette of up to 256 colors for each frame."
   },
   {
+    "word": "Go",
+    "definition": "Go is an open source programming language, created at Google. You can use it to write back-end code for Mac, Windows and Linux that is highly performant. It is sometimes referred to as 'Golang' to make it easier to Google."
+  },
+  {
     "word": "GraphQL",
     "definition": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools."
   },
