@@ -204,6 +204,14 @@
     "definition": "Natural Language Processing, the use of machine learning or AI techniques to proccess and produce human language."
   },
   {
+    "word": "Node.js",
+    "definition": "Node.js (or sometimes just Node) is a JavaScript runtime based on Chrome's V8 JavaScript engine. It allows you to write back-end code and scripts to do various tasks. It is the 'N' in 'MERN'."
+  },
+  {
+    "word": "NPM",
+    "definition": "NPM is the Node.js Package Manager and is installed alongside Node.js. Similar to NuGet for C# or Pip for Python, it lets you manage third-party dependencies in your project and keep track of which versions you have installed. Also see Yarn, an alternative to NPM."
+  },
+  {
     "word": "Object",
     "definition": "A value stored in memory that referenced by an identifier."
   },
@@ -319,6 +327,11 @@
     "word": "WWW",
     "definition": "Acronym for World Wide Web, is an information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet"
   },
+  {
+    "word": "Yarn",
+    "definition": "An alternative to NPM (Node.js Package Manager) developed by Facebook. It is generally considered to be faster and more secure than NPM, although they are mostly interchangeable."
+  },
+
   {
     "word": "TypeScript",
     "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
