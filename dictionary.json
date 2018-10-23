@@ -56,6 +56,10 @@
     "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
   },
   {
+    "word": "Cloud Computing",
+    "definition": "Cloud computing is the the use of various services, such as software development platforms, servers, storage and software, over the internet, often referred to as the cloud."
+  },
+  {
     "word": "Column family",
     "definition": "A database object that contains columns of related data."
   },
@@ -63,6 +67,10 @@
     "word": "CSS",
     "definition": "'Cascading Style Sheets' is a style sheet language used for describing the look (e.g. colors, sizes, spacing, etc) document written in an online markup language"
   },
+  {
+    "word": "Database",
+    "definition": "A database is an organized collection of data. More specifically, a database is an electronic system that allows data to be easily accessed, manipulated and updated."
+  }
   {
     "word": "Data Science",
     "definition": "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining."
@@ -271,6 +279,10 @@
     "word": "Source Code",
     "definition": "Source code is the collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a program, or executable. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
   },
+    {
+    "word": "SQL ",
+    "definition": "Structured Query Language (SQL) is a standard computer language for relational database management and data manipulation."
+  },
   {
     "word": "SSL",
     "definition": "Acronym for Secure Sockets Layer, the security protocol that allows for transmission of encrypted data between a web server and a user's browser."
@@ -299,7 +311,6 @@
     "word": "WWW",
     "definition": "Acronym for World Wide Web, is an information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet"
   },
-
   {
     "word": "TypeScript",
     "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
