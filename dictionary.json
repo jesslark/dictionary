@@ -44,6 +44,10 @@
     "definition": "An error or flaw in the website or app that keeps it from running as expected."
   },
   {
+    "word": "CamelCase",
+    "definition": "A formatting style for a group of words, often used in Javascript.  For example 'camelCase', 'alsoCamelCase', and 'oneMoreExampleOfCamelCase'. Not to be confused with Pascal Case, which is almost exactly the same, however it capitalizes the first word in the group as well (i.e. 'ThisIsPascalCase')."
+  },
+  {
     "word": "C#",
     "definition": "Pronounced 'C-Sharp' - A general-purpose object-oriented programming language developed by Microsoft."
   },
@@ -53,7 +57,7 @@
   },
   {
     "word": "Column family",
-	  "definition": "A database object that contains columns of related data."
+    "definition": "A database object that contains columns of related data."
   },
   {
     "word": "CSS",
@@ -295,3 +299,4 @@
     "definition": "WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
   }
 ]
+
