@@ -287,6 +287,10 @@
     "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
   },
   {
+    "word": "REST API",
+    "definition": "API that uses HTTP requests to GET, PUT, POST and DELETE data. REST API is based on representational state transfer (REST) technology, an architectual style and approach to communications, often used in web services development."
+  },
+  {
     "word": "AngularJS",
     "definition": "Javascript based open source front end web application framework used for creating rich, extensible web applications."
   },
