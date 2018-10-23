@@ -238,11 +238,11 @@
     "word": "Scala",
     "definition": "Scala is a general-purpose programming language providing support for functional programming and a strong static type system."
   },
-  {    
+  {
     "word": "SEO",
     "definition": "Search engine optimization is the method of gaining traffic (Users) to your website through search engines like Google, Bing etc by ranking on the first page for particular keywords"
   },
-  {    
+  {
     "word": "Server",
     "definition": "A server is a computer program or a device that provides functionality for other programs or devices, called 'clients'. This architecture is called the client–server model, and a single overall computation is distributed across multiple processes or devices."
   },
@@ -293,5 +293,13 @@
   {
     "word": "WebAssembly",
     "definition": "WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
+  },
+  {
+    "word": "Variable",
+    "definition": "variable is a value that can change, depending on conditions or on information passed to the program"
+  },
+  {
+    "word": "CSV",
+    "definition": "Is a comma-separated values file, which allows data to be saved in a tabular format"
   }
 ]
