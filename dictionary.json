@@ -4,6 +4,10 @@
     "definition": "Short for Asynchronous JavaScript and XML."
   },
   {
+    "word": "UAT (User Acceptance Testing)",
+    "definition": "Formal testing done often by the user, with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies the acceptance criteria and to enable the user to determine whether or not to accept the system."
+  },
+  {
     "word": "Algorithm",
     "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
   },
