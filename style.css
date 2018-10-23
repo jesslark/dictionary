@@ -54,3 +54,14 @@
       stroke-width:3;
       cursor: pointer;
   }
+  /* Fix for Issue #70*/
+  @media(max-width:750px) {
+    .entry {
+        width: 40%;
+    }
+}
+@media(max-width: 476px) {
+    .entry {
+        width: 100%;
+    }
+}
