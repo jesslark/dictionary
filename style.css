@@ -33,3 +33,35 @@
 .definition {
     margin-top: -5px;
 }
+
+
+#scroll-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+  }
+  #scroll-top rect {
+    fill: #C5E7E2;
+    stroke-width: 1;
+    stroke: #FFFFFF;
+    cursor: pointer;
+    
+  }
+  #scroll-top polyline {
+      stroke: #FFFFFF;
+      fill:none;
+      stroke-width:3;
+      cursor: pointer;
+  }
+  /* Fix for Issue #70*/
+  @media(max-width:750px) {
+    .entry {
+        width: 40%;
+    }
+}
+@media(max-width: 476px) {
+    .entry {
+        width: 100%;
+    }
+}

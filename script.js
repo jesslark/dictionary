@@ -20,6 +20,12 @@ fetch('./dictionary.json').then(function(response) {
   });
 });
 
+// bind event listener to scroll-top button
+document.getElementById("scroll-top").addEventListener("click",function(e){
+  //scroll to element #top-page
+   document.getElementById("top-page").scrollIntoView()
+},false);
+
 //PUSH THE DEFINITIONS TO THE WEBSITE
 function pushDefinitions(data) {
   data.forEach(function(item) {
