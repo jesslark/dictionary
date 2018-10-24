@@ -370,7 +370,7 @@
   },
   {
     "word": "Variable",
-    "definition": "variable is a value that can change, depending on conditions or on information passed to the program"
+    "definition": "A variable is a value that can change, depending on conditions or on information passed through the program."
   },
   {
     "word": "CSV",
