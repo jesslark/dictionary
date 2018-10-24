@@ -295,7 +295,7 @@
     "definition": "WebAssembly (Wasm, WA) is a web standard that defines a binary format and a corresponding assembly-like text format for executable code in Web pages. It is meant to enable executing code nearly as fast as running native machine code."
   },
   {
-    "word": "Callback".
+    "word": "Callback",
     "definition": "A callback function is any function that is passed as an argument to other code that is expected to call back the argument at a given time. If this is immediate then it called synchronous callback, if it is delayed it is called asynchronous callback."
   }
 ]
