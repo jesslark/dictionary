@@ -387,5 +387,9 @@
   {
     "word": "Callback",
     "definition": "A callback function is any function that is passed as an argument to other code that is expected to call back the argument at a given time. If this is immediate then it called synchronous callback, if it is delayed it is called asynchronous callback."
+  },
+  {
+    "word": "CMS",
+    "definition": "A content management system (CMS) is a software application or set of related programs that are used to create and manage digital content. It typically supports multiple users in a collaborative environment."
   }
 ]
