@@ -391,5 +391,9 @@
   {
     "word": "CMS",
     "definition": "A content management system (CMS) is a software application or set of related programs that are used to create and manage digital content. It typically supports multiple users in a collaborative environment."
+  },
+  {
+    "word": "IDE (Integrated Development Environment)",
+    "definition": "A software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools, and a debugger."
   }
 ]
