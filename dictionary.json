@@ -392,4 +392,48 @@
     "word": "CMS",
     "definition": "A content management system (CMS) is a software application or set of related programs that are used to create and manage digital content. It typically supports multiple users in a collaborative environment."
   }
+  {
+    "word": "Array",
+    "definition": "An array is a group of related data values (called elements) that are grouped together. All of the array elements must be the same data type"
+  }
+  {
+    "word": "Backend",
+    "definition": "In general, a back-end task or operation is one that is performed in the background, without a user's awareness or direct interaction."
+  }
+  {
+    "word": "Closure",
+    "definition": "A closure is a programming technique that allows variables outside of the scope of a function to be accessed. In many cases, a closure is created when a function is defined within another function, allowing the inner function to access variables within the outer function."
+  }
+  {
+    "word": "Concurrency",
+    "definition": "The performance of multiple calculations at the same time on a computer system. The calculations can be separated by using two separate processors, one processor with additional cores, or by using different threads on the processor. The calculations may or may not interact with one another at some point in the process."
+  }
+  {
+    "word": "Constructor",
+    "definition": "In object-oriented programming, a constructor is a method or function that is used for the special purpose of creating an instance of the class to which it belongs. It has no return value and is usually identified by having the same name as the class itself. For instance, in Java, a class named \"Animal\" may have a constructor method also named \"Animal\" that is run automatically any time a new \"Animal\" object is created."
+  }
+  {
+    "word": "ECMAScript",
+    "definition": "ECMAScript is a client-side scripting language specification that is the basis of several programming languages including JavaScript, ActionScript, and JScript. It was first released in 1997 by the non-profit standards organization Ecma International under its official title, ECMA-262."
+  }
+  {
+    "word": "Gigo",
+    "definition": "With computer programming, GIGO is short for \"garbage in, garbage out\" and is a program's inability to interpret any received bad data, resulting in incorrect results or a crash. For example, if a programmer instructed a program to access an improper section of memory, the returned data would be wrong and result in an error or crash the program."
+  }
+  {
+    "word": "Javax",
+    "definition": "The javax prefix is used by the Java programming language for a package of standard Java extensions. These include extensions such as javax.servlet, which deals with running servlets, and javax.jcr, which deals with the Java Content Library."
+  }
+  {
+    "word": "Null pointer",
+    "definition": "When referring to computer memory, a null pointer is a command used to direct a software program or operating system to an empty location in the computer memory. Commonly, the null pointer is used to denote the end of a memory search or processing event. In computer programming, a null pointer is a pointer that does not point to any object or function."
+  }
+  {
+    "word": "Opcode",
+    "definition": "Sometimes referred to as opcode, operation code is code that instructs the computer on what task it should perform."
+  }
+  {
+    "word": "Quick-and-dirty",
+    "definition": "Quick-and-dirty or quick-n-dirty, is a technique where something is done fast and sloppily, usually due to time constraints, pressure, testing purposes, or because the task was not considered important. This term commonly refers to software programming, where a feature or program is designed and written in a short amount of time, may contain errors and is usually hard to maintain."
+  }
 ]
