@@ -240,6 +240,10 @@
     "definition": "Object-Relational Mapping (ORM) is a mechanism to link classes of an object-oriented (OO) programming language to tables of a relational database management system (RDBMS)."
   },
   {
+    "word": "OWASP",
+    "definition": "Open Web Application Security Project. They are a 501(c)(3) worldwide not-for-profit charitable organization focused on improving the security of software. They release a 'Top 10' security risk list yearly. "
+  },
+  {
     "word": "Process",
     "definition": "A process is a running computer program."
   },
