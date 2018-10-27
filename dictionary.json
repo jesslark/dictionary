@@ -391,5 +391,9 @@
   {
     "word": "CMS",
     "definition": "A content management system (CMS) is a software application or set of related programs that are used to create and manage digital content. It typically supports multiple users in a collaborative environment."
+  },
+  {
+    "word": "WebSockets",
+    "definition": "WebSocket is a protocol which allows two computers to talk to each other over TCP. It's primarily used to add real-time functionality to web pages, because it allows servers to push data to the client without the client requesting it."
   }
 ]
