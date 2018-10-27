@@ -268,6 +268,10 @@
     "definition": "A JavaScript library for building user interfaces."
   },
   {
+    "word": "Refactoring",
+    "definition": "The process of improving the design of an existing computer program while preserving its external behavior."
+  },
+  {
     "word": "Responsive Design",
     "definition": "Websites that change to the size of the screen on which they're being viewed."
   },
