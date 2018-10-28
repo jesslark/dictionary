@@ -64,6 +64,9 @@ function close_all() {
 }
 
 
+
+
+
 function find_my_div() {
   close_all();
 
