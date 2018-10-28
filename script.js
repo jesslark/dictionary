@@ -51,6 +51,7 @@ function pushDefinitions(data) {
 function gid(a_id) {
   return document.getElementById(a_id);
 } 
+
 function close_all() {
 
   // applies the Array.prototype.forEach() method to the array-like nodeList
@@ -62,10 +63,6 @@ function close_all() {
   });
 
 }
-
-
-
-
 
 function find_my_div() {
   close_all();
