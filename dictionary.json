@@ -391,5 +391,9 @@
   {
     "word": "CMS",
     "definition": "A content management system (CMS) is a software application or set of related programs that are used to create and manage digital content. It typically supports multiple users in a collaborative environment."
+  },
+  {
+    "word": "SQL Injection",
+    "definition": "SQL Injection is a code injection technique in which SQL statements are inserted into an data entry field. User input fields which are not sanitized or properly filtered are vulnerable to this type of attack."
   }
 ]
