@@ -395,5 +395,9 @@
   {
     "word": "SQL Injection",
     "definition": "SQL Injection is a code injection technique in which SQL statements are inserted into an data entry field. User input fields which are not sanitized or properly filtered are vulnerable to this type of attack."
+  },
+  {
+    "word": "UI",
+    "definition":"'User Interface. The visual elements that go into a website or app."
   }
 ]
