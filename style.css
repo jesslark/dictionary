@@ -110,4 +110,12 @@ a {
     background: navy;
 }
 
+.light #edit_search {
+    color: black;
+}
+
+.dark #edit_search {
+    color: white;
+}
+
 
