@@ -276,6 +276,10 @@
     "definition": "A JavaScript library for building user interfaces."
   },
   {
+    "word": "Refactoring",
+    "definition": "The process of improving the design of an existing computer program while preserving its external behavior."
+  },
+  {
     "word": "Recursion",
     "definition": "Recursion occurs when a thing is defined in terms of itself or of its type. The most common application of recursion is in mathematics and computer science, where a function being defined is applied within its own definition."
   },
