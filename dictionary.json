@@ -443,5 +443,21 @@
   {
     "word": "UX",
     "definition": "'User Experience.' A user's interaction with an interface with a focus on how satisfying and successful the experience is."
+  },
+  {
+    "word": "Specificity",
+    "definition": "Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied. Specificity is based on the matching rules which are composed of different sorts of CSS selectors."
+  },
+  {
+    "word": "Accessibility",
+    "definition": "Accessibility is the practice of making your websites usable by as many people as possible — we traditionally think of this as being about people with disabilities, but really it also benefits other groups such as those using mobile devices, or those with slow network connections."
+  },
+  {
+    "word": "Localization",
+    "definition": "Localization refers to the adaptation of a product, application or content to meet the language, cultural and other requirements of a specific target market."
+  },
+  {
+    "word": "Modularity",
+    "definition": "Modularity refers to the degree to which a system's components may be separated and recombined, it is also division of a software package into logical units."
   }
 ]
