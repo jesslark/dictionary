@@ -64,6 +64,10 @@
     "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
   },
   {
+    "word": "Class",
+    "definition": "In object-oriented programming, a class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods)."
+  },
+  {
     "word": "Cloud Computing",
     "definition": "Cloud computing is the the use of various services, such as software development platforms, servers, storage and software, over the internet, often referred to as the cloud."
   },
