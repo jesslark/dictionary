@@ -26,6 +26,14 @@ document.getElementById("scroll-top").addEventListener("click",function(e){
    document.getElementById("top-page").scrollIntoView()
 },false);
 
+document.getElementById("toggle-color").addEventListener("click",function(e){
+
+  var body = document.getElementById("body")
+  var themeClass = body.classList.value
+  themeClass = ( themeClass == "dark" ) ? "light" : "dark"
+  body.classList = themeClass
+},false);
+
 //PUSH THE DEFINITIONS TO THE WEBSITE
 function pushDefinitions(data) {
   data.forEach(function(item) {
