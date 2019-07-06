@@ -48,6 +48,10 @@
     "definition": "An error or flaw in the website or app that keeps it from running as expected."
   },
   {
+    "word": "Byte",
+    "definition": "A collection of (typically) eight bits, for example 01100111, or 01100010, that are generally operated on as a unit.  See 'Bit'.",
+  },
+  {
     "word": "CamelCase",
     "definition": "A formatting style for a group of words, often used in Javascript.  For example 'camelCase', 'alsoCamelCase', and 'oneMoreExampleOfCamelCase'. Not to be confused with Pascal Case, which is almost exactly the same, however it capitalizes the first word in the group as well (i.e. 'ThisIsPascalCase')."
   },
