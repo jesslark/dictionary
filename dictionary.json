@@ -48,6 +48,10 @@
     "definition": "An error or flaw in the website or app that keeps it from running as expected."
   },
   {
+    "word": "Byte",
+    "definition": "A collection of (typically) eight bits, for example 01100111, or 01100010, that are generally operated on as a unit.  See 'Bit'."
+  },
+  {
     "word": "CamelCase",
     "definition": "A formatting style for a group of words, often used in Javascript.  For example 'camelCase', 'alsoCamelCase', and 'oneMoreExampleOfCamelCase'. Not to be confused with Pascal Case, which is almost exactly the same, however it capitalizes the first word in the group as well (i.e. 'ThisIsPascalCase')."
   },
@@ -58,6 +62,10 @@
   {
     "word": "Cache",
     "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
+  },
+  {
+    "word": "Class",
+    "definition": "In object-oriented programming, a class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods)."
   },
   {
     "word": "Cloud Computing",
@@ -268,6 +276,10 @@
     "definition": "A JavaScript library for building user interfaces."
   },
   {
+    "word": "Recursion",
+    "definition": "Recursion occurs when a thing is defined in terms of itself or of its type. The most common application of recursion is in mathematics and computer science, where a function being defined is applied within its own definition."
+  },
+  {
     "word": "Responsive Design",
     "definition": "Websites that change to the size of the screen on which they're being viewed."
   },
@@ -345,6 +357,10 @@
     "definition": "API that uses HTTP requests to GET, PUT, POST and DELETE data. REST API is based on representational state transfer (REST) technology, an architectual style and approach to communications, often used in web services development."
   },
   {
+    "word": "Soap API",
+    "definition": "(Simple Object Access Protocol) is a messaging protocol that allows programs that run on disparate operating systems (such as Windows and Linux) to communicate using Hypertext Transfer Protocol (HTTP) and its Extensible Markup Language (XML)"
+  },
+  {
     "word": "TDD",
     "definition": "Test Driven Development (TDD) is a software development process that relies on the repetition of a very short development cycle: <ul class='browser-default'><li>Add a test (initialy failing)</li><li>Run all tests and see if the new one fails</li><li>Write some code</li><li>Run tests</li><li>Refactor code</li><li>Repeat</li></ul>"
   },
@@ -395,5 +411,17 @@
   {
     "word": "WebSockets",
     "definition": "WebSocket is a protocol which allows two computers to talk to each other over TCP. It's primarily used to add real-time functionality to web pages, because it allows servers to push data to the client without the client requesting it."
+  },
+  {
+    "word": "SQL Injection",
+    "definition": "SQL Injection is a code injection technique in which SQL statements are inserted into an data entry field. User input fields which are not sanitized or properly filtered are vulnerable to this type of attack."
+  },
+  {
+    "word": "UI",
+    "definition": "'User Interface'. The visual elements that go into a website or app."
+  },
+  {
+    "word": "UX",
+    "definition": "'User Experience.' A user's interaction with an interface with a focus on how satisfying and successful the experience is."
   }
 ]

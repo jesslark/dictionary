@@ -26,6 +26,14 @@ document.getElementById("scroll-top").addEventListener("click",function(e){
    document.getElementById("top-page").scrollIntoView()
 },false);
 
+document.getElementById("toggle-color").addEventListener("click",function(e){
+
+  var body = document.getElementById("body")
+  var themeClass = body.classList.value
+  themeClass = ( themeClass == "dark" ) ? "light" : "dark"
+  body.classList = themeClass
+},false);
+
 //PUSH THE DEFINITIONS TO THE WEBSITE
 function pushDefinitions(data) {
   data.forEach(function(item) {
@@ -51,6 +59,7 @@ function pushDefinitions(data) {
 function gid(a_id) {
   return document.getElementById(a_id);
 } 
+
 function close_all() {
 
   // applies the Array.prototype.forEach() method to the array-like nodeList
@@ -62,7 +71,6 @@ function close_all() {
   });
 
 }
-
 
 function find_my_div() {
   close_all();
