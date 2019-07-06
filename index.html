@@ -11,11 +11,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="body" class="dark">
   <div id="top-page"></div>
   <div class="header">
     <div class="container">
       <h1>Dictionary for Developers</h1>
+      <div class="switch">
+          <label>
+            Light
+            <input id="toggle-color" type="checkbox" checked>
+            <span class="lever"></span>
+            Dark
+          </label>
+        </div>
       <h5>Dictionary of words that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.</h5>
     </div>
   </div>
@@ -24,7 +32,7 @@
       <input type="text" id="edit_search" onkeyup="javascript: find_my_div();" placeholder="Search in words and definitions here">
     </div>
   <div class="container">
-    <div id="dictionary"></div>
+    <div id="dictionary" class="row"></div>
     <!-- Populate with script.js -->
   </div>
   <div class="footer">
