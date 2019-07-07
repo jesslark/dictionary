@@ -507,5 +507,37 @@
   {
     "word": "Quick-and-dirty",
     "definition": "Quick-and-dirty or quick-n-dirty, is a technique where something is done fast and sloppily, usually due to time constraints, pressure, testing purposes, or because the task was not considered important. This term commonly refers to software programming, where a feature or program is designed and written in a short amount of time, may contain errors and is usually hard to maintain."
+  },
+  {
+    "word": "software-engineer",
+    "definition": "A person who designs and implements software solutions."
+  },
+  {
+    "word": "CSS",
+    "definition": "Cascading Style Sheet. Used to style HTML documents with font colors, margins, link decorations, and more."
+  },
+  {
+    "word": "Graph database",
+    "definition": "A database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data."
+  },
+  {
+    "word": "Multithreading",
+    "definition": "A technique by which a single set of code can be used by several processors at different stages of execution."
+  },
+  {
+    "word": "Bootstrap",
+    "definition": "A popular front-end framework often used to build websites quickly using pre-defined CSS styles for design elements such as layout, typography, color and much more."
+  },
+  {
+    "word": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "definition": ""
+  },
+  {
+    "word": "",
+    "definition": ""
   }
 ]
