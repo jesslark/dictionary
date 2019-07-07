@@ -1,0 +1,121 @@
+.header,
+.footer {
+    width: 100%;
+    background: #42a5f5;
+    padding: 20px 0;
+}
+
+.footer {
+    height: 100px;
+    margin-top: 20px;
+}
+
+
+#dictionary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entry {
+    box-sizing: border-box;
+    width: 27%;
+    padding: 10px;
+    margin: 2%;
+}
+
+.word {
+    font-size: 2.4rem;
+    border-bottom: #42a5f5 4px solid;
+    padding: 10px 5px;
+    margin-top: 0;
+}
+
+.definition {
+    margin-top: -5px;
+}
+
+
+#scroll-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+  }
+  #scroll-top rect {
+    fill: #42a5f5;
+    stroke-width: 1;
+    stroke: #FFFFFF;
+    cursor: pointer;
+    
+  }
+  #scroll-top polyline {
+      stroke: #FFFFFF;
+      fill:none;
+      stroke-width:3;
+      cursor: pointer;
+  }
+  /* Fix for Issue #70*/
+  @media(max-width:950px) {
+    .entry {
+        width: 40%;
+    }
+}
+@media(max-width: 676px) {
+    .entry {
+        width: 100%;
+    }
+}
+
+a {
+    color: white;
+}
+
+.dark {
+    background: #282c34;
+    color: white;
+}
+
+.light {
+    background: white;
+    color: #282c34;
+}
+
+.light label {
+    color: navy;
+}
+
+.switch {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.switch label {
+    color: white;
+}
+
+.switch label .lever {
+    background: lightskyblue;
+}
+
+.switch label .lever::before {
+    background: dodgerblue;
+}
+
+.switch label input[type="checkbox"]:checked + .lever {
+    background: rebeccapurple;
+}
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+    background: navy;
+}
+
+.light #search {
+    color: #282c34;
+}
+
+.dark #search {
+    color: white;
+}
+
+
