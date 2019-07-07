@@ -71,13 +71,13 @@ a {
 }
 
 .dark {
-    background: black;
+    background: #282c34;
     color: white;
 }
 
 .light {
     background: white;
-    color: black;
+    color: #282c34;
 }
 
 .light label {
@@ -110,11 +110,11 @@ a {
     background: navy;
 }
 
-.light #edit_search {
-    color: black;
+.light #search {
+    color: #282c34;
 }
 
-.dark #edit_search {
+.dark #search {
     color: white;
 }
 

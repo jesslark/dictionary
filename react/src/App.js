@@ -1,9 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './style.css';
-// import dictionary from './dictionary.js';
 
 function App() {
-  const dictionary = [
+  const alphabetizeContent = (content) => {
+    content.sort((entryA, entryB) => {
+      if (entryA.word.toLowerCase() > entryB.word.toLowerCase()) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+    return content;
+  };
+
+  const fullDictionary = alphabetizeContent([
     {
       "word": "AJAX",
       "definition": "Short for Asynchronous JavaScript and XML."
@@ -98,7 +108,7 @@ function App() {
     },
     {
       "word": "DDD",
-      "definition": "Domain-driven design is an approach to software development for complex needs by connecting the implementation to an evolving model. The premise of domain-driven design is the following: <ul class='browser-default'><li>placing the project's primary focus on the core domain and domain logic;</li><li>basing complex designs on a model of the domain;</li><li>initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.</li></ul>"
+      "definition": "Domain-driven design is an approach to software development for complex needs by connecting the implementation to an evolving model. The premise of domain-driven design is the following: <ul className='browser-default'><li>placing the project's primary focus on the core domain and domain logic;</li><li>basing complex designs on a model of the domain;</li><li>initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.</li></ul>"
     },
     {
       "word": "Debugging",
@@ -379,7 +389,7 @@ function App() {
     },
     {
       "word": "TDD",
-      "definition": "Test Driven Development (TDD) is a software development process that relies on the repetition of a very short development cycle: <ul class='browser-default'><li>Add a test (initialy failing)</li><li>Run all tests and see if the new one fails</li><li>Write some code</li><li>Run tests</li><li>Refactor code</li><li>Repeat</li></ul>"
+      "definition": "Test Driven Development (TDD) is a software development process that relies on the repetition of a very short development cycle: <ul className='browser-default'><li>Add a test (initialy failing)</li><li>Run all tests and see if the new one fails</li><li>Write some code</li><li>Run tests</li><li>Refactor code</li><li>Repeat</li></ul>"
     },
     {
       "word": "Continuous Integration (CI)",
@@ -533,27 +543,48 @@ function App() {
       "word": "Bootstrap",
       "definition": "A popular front-end framework often used to build websites quickly using pre-defined CSS styles for design elements such as layout, typography, color and much more."
     }
-  ]
-  console.log("dictionary")
-  console.log(dictionary)
+  ]);
+  
+  const [dictionary, updateDictionary] = useState(fullDictionary);
+  const [colorTheme, switchTheme] = useState('light');
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const [toggleState, switchToggle] = useState('checked');
-  const [colorTheme, switchTheme] = useState('dark');
-
-
-  // document.getElementById("toggle-color").addEventListener("click",function(e){
-
-  //   var body = document.getElementById("body")
-  //   var themeClass = body.classList.value
-  //   themeClass = ( themeClass == "dark" ) ? "light" : "dark"
-  //   body.classList = themeClass
-  // },false);
+  const displayEntries = (entries) => {
+    const htmlEntries = entries.map( (entry, i) => {
+      return (
+        <div className="entry" key={i}>
+          <h3 className="word">{entry.word}</h3>
+          <p className="definition">
+            {entry.definition}
+          </p>
+        </div>
+      )
+    });
+    return htmlEntries;
+  }
 
   function handleColorToggle() {
-    switchToggle( (toggleState === 'checked') ? '' : 'checked');
     switchTheme( (colorTheme === 'dark') ? 'light' : 'dark');
-    console.log(toggleState)
   }
+
+  const handleSearchInput = e => {
+    setSearchTerm(e.target.value);
+    filterContent(e.target.value);
+  };
+
+  const filterContent = term => {
+    const filteredList = fullDictionary.filter( entry => {
+      term = term.toLowerCase();
+      const word = entry.word.toLowerCase();
+      const def  = entry.definition.toLowerCase();
+      return word.includes(term) || def.includes(term);
+    });
+    updateDictionary(filteredList);
+  }
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <div className={colorTheme}>
@@ -566,7 +597,7 @@ function App() {
           <div className="switch">
               <label>
                 Light
-                <input id="toggle-color" type="checkbox"  onClick={handleColorToggle} />
+                <input id="toggle-color" type="checkbox" onClick={handleColorToggle} />
                 <span className="lever"></span>
                 Dark
               </label>
@@ -577,11 +608,13 @@ function App() {
 
       <div className="container">
         <h3>Search</h3>
-        <input type="text" id="edit_search" placeholder="Search in words and definitions here" />
+        <input type="text" id="search" placeholder="Search in words and definitions here" value={searchTerm} onChange={handleSearchInput} />
       </div>
 
       <div className="container">
-        <div id="dictionary" className="row"></div>
+        <div id="dictionary" className="row">
+          {displayEntries(dictionary)}
+        </div>
       </div>
 
       <div className="footer">
@@ -590,7 +623,7 @@ function App() {
         </div>
       </div>
 
-      <svg width="100" height="100" id="scroll-top">
+      <svg width="100" height="100" id="scroll-top" onClick={scrollToTop}>
         <rect  x="25" y="25" width="50" height="50" />
         <polyline points="35,58 50,38 65,58" />
       </svg> 

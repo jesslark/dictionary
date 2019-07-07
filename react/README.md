@@ -1,3 +1,45 @@
+# Dictionary for Devs
+
+Dictionary for Devs was an idea created by Jess Mear and used as a project by the Phoenix React Meetup Group. Later, during Hacktobertfest 2018, Jess started a fresh approach to the DFD as a shallow dive into open source. The DFD is a collection of terms, phrases, and acronyms that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.
+
+## How to Contribute
+
+- Offer a new definition or a new feature. Use the 'Resources' guide below to learn how to make a PR. 
+
+## Resources
+- How to do your first pull request: https://github.com/jessmear/dictionary-for-devs/blob/master/pull-request-basics.md
+- Markdown cheat sheet: https://www.makeuseof.com/tag/printable-markdown-cheat-sheet/
+  - (Alternative) https://guides.github.com/features/mastering-markdown/
+- How to Contribute to Open Source: https://opensource.guide/how-to-contribute/
+- Hacktoberfest: https://hacktoberfest.digitalocean.com/
+
+# Possible TODO
+
+Implement search
+
+Clean up code, move pieces into appropriate components, order functions appropriately
+Make scrollToTop smooth
+Update search to allow for searching on words or defs or both
+Allow for multiple definitions
+Specifically add an ELI5 defintion for each term
+Consider useReducer instead of useState
+Move dictionary content into external file
+Improve design
+Move dictionary content into database
+Add functionality for users to add definitions to database
+Add funcationality for moderators to clean up any issues
+Consider pulling in dictionary defs (or some other source) from an API
+Add code snippets for explanations where appropriate
+Add links to defs where appropriate
+
+# Major Revisions
+
+July 2019: Port project into React
+October 2018: Move definitions out of HTML and into external file
+October 2018: Initialize project 
+
+# Create React App 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
