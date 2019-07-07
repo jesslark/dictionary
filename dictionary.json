@@ -276,6 +276,10 @@
     "definition": "Python is an interpreted high-level programming language for general-purpose programming."
   },
   {
+    "word": "Race Condition",
+    "definition": "A race condition is an undesirable situation that occurs when a device or system attempts to perform two or more operations at the same time, but because of the nature of the device or system, the operations must be done in the proper sequence to be done correctly."
+  },
+  {
     "word": "React",
     "definition": "A JavaScript library for building user interfaces."
   },
