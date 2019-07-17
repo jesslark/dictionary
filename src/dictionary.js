@@ -1,4 +1,4 @@
-const dictionary = [
+export const wordList = [
   {
     "word": "AJAX",
     "definition": "Short for Asynchronous JavaScript and XML."
