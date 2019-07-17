@@ -15,7 +15,7 @@ Dictionary for Devs was an idea created by Jess Mear and used as a project by th
 
 # Possible TODO
 
-Move dictionary content into external file
+Implement search
 
 Clean up code, move pieces into appropriate components, order functions appropriately
 Make scrollToTop smooth
@@ -23,6 +23,7 @@ Update search to allow for searching on words or defs or both
 Allow for multiple definitions
 Specifically add an ELI5 defintion for each term
 Consider useReducer instead of useState
+Move dictionary content into external file
 Improve design
 Move dictionary content into database
 Add functionality for users to add definitions to database
