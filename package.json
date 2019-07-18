@@ -2,8 +2,9 @@
   "name": "temp",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://jessmear.github.io/dictionary-for-devs/",
+  "homepage": "https://jessmear.github.io/dictionary-for-devs/",
   "dependencies": {
+    "lodash.template": "^4.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
