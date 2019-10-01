@@ -527,5 +527,9 @@ export const wordList = [
   {
     "word": "Bootstrap",
     "definition": "A popular front-end framework often used to build websites quickly using pre-defined CSS styles for design elements such as layout, typography, color and much more."
+  },
+  {
+    "word": "Unit Testing",
+    "definition": "Unit Testing is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output."
   }
 ]
