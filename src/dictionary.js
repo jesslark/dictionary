@@ -359,11 +359,6 @@ export const wordList = [
     "word": "Yarn",
     "definition": "An alternative to NPM (Node.js Package Manager) developed by Facebook. It is generally considered to be faster and more secure than NPM, although they are mostly interchangeable."
   },
-
-  {
-    "word": "TypeScript",
-    "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
-  },
   {
     "word": "REST API",
     "definition": "API that uses HTTP requests to GET, PUT, POST and DELETE data. REST API is based on representational state transfer (REST) technology, an architectual style and approach to communications, often used in web services development."
