@@ -2,7 +2,7 @@
   "name": "temp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jessmear.github.io/dictionary-for-devs/",
+  "homepage": "https://jessmear.github.io/dictionary/",
   "dependencies": {
     "lodash.template": "^4.5.0",
     "react": "^16.8.6",
@@ -33,6 +33,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.1"
   }
 }

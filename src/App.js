@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import { wordList } from './dictionary.js'
 
@@ -16,7 +16,7 @@ function App() {
 
   const fullDictionary = alphabetizeContent(wordList);
   const [dictionary, updateDictionary] = useState(fullDictionary);
-  const [colorTheme, switchTheme] = useState('light');
+  const [colorTheme, switchTheme] = useState('dark');
   const [searchTerm, setSearchTerm] = useState('');
 
   const displayEntries = (entries) => {
@@ -66,10 +66,10 @@ function App() {
           <h1>Dictionary for Developers</h1>
           <div className="switch">
               <label>
-                Light
+                Dark
                 <input id="toggle-color" type="checkbox" onClick={handleColorToggle} />
                 <span className="lever"></span>
-                Dark
+                Light
               </label>
             </div>
           <h5>Dictionary of words that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.</h5>
