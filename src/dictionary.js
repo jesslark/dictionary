@@ -131,6 +131,10 @@ export const wordList = [
     "word": "FTP",
     "definition": "File transfer protocol (FTP) is a common method of transferring files via the internet from one host to another host."
   },
+    {
+    "word": "Gateway",
+    "definition": "A gateway is a device that routes traffic between networks."
+  },
   {
     "word": "GIF",
     "definition": "Graphics Interchange Format is a bitmap image format. Supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space. It also supports animations and allows a separate palette of up to 256 colors for each frame."
@@ -162,6 +166,15 @@ export const wordList = [
   {
     "word": "IDE",
     "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, build automation tools, and intelligent code completion."
+  },
+  
+  {
+    "word": "IP address",
+    "definition": " An Internet Protocol address, or IP address, is a numerical address that corresponds to your computer on a network"
+  },
+  {
+    "word": "IPv4 and IPv6",
+    "definition": " two types of IP address."
   },
   {
     "word": "Java",
@@ -202,6 +215,10 @@ export const wordList = [
   {
     "word": "Microsoft Windows",
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
+  },
+  {
+    "word": "NAT",
+    "definition": "NAT(Network Address translation is used by routers to share a single IP address among many devices."
   },
   {
     "word": ".NET",
@@ -367,6 +384,10 @@ export const wordList = [
   {
     "word": "REST API",
     "definition": "API that uses HTTP requests to GET, PUT, POST and DELETE data. REST API is based on representational state transfer (REST) technology, an architectual style and approach to communications, often used in web services development."
+  },
+  {
+    "word": "Router",
+    "definition": "A router is a device that passes traffic back and forth, while communication."
   },
   {
     "word": "Soap API",
