@@ -628,7 +628,7 @@ export const wordList = [
     "word": "Wireframe",
     "definition": "Wireframes help designers to communicate to web developers how a website should be structured. A wireframe is essentially a bare-bones blueprint of the website, showing the page layout, how the content should be arranged, which interface elements and navigational systems should be included, and how all these components work together."
   },
-  }
+  {
     "word": "C",
     "definition": "C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. C is a widely used language that has influenced many other popular languages such as C++."
   },
