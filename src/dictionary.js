@@ -551,5 +551,13 @@ export const wordList = [
   {
     "word": "Unit Testing",
     "definition": "Unit Testing is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output."
+  },
+  {
+    "word": "MVP",
+    "definition": "The minimum viable product (MVP) is the most pared-down version of a product that can be released to market. When adopting an MVP approach, developers will first focus on the core features and functions that are absolutely crucial."
+  },
+  {
+    "word": "Wireframe",
+    "definition": "Wireframes help designers to communicate to web developers how a website should be structured. A wireframe is essentially a bare-bones blueprint of the website, showing the page layout, how the content should be arranged, which interface elements and navigational systems should be included, and how all these components work together."
   }
 ]
