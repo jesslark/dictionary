@@ -27,6 +27,9 @@ function App() {
           <p className="definition">
             {entry.definition}
           </p>
+          <p className='wikilinks'>
+            <a href={entry.wikilink} target="_blank" rel="noreferrer" rel="noopener">{entry.wikilink}</a>
+          </p>
         </div>
       )
     });

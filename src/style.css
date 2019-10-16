@@ -2,6 +2,10 @@ body {
   font-family: 'Chivo', sans-serif;
 }
 
+h1 {
+  font-family: 'Turret Road', cursive;
+}
+
 .header,
 .footer {
   width: 100%;
@@ -32,10 +36,19 @@ body {
   border-bottom: #42a5f5 4px solid;
   padding: 10px 5px;
   margin-top: 0;
+  font-family: 'Turret Road', cursive;
 }
 
 .definition {
   margin-top: -5px;
+}
+
+.wikilinks a {
+  font-family: ;
+}
+
+.light .wikilinks a {
+    color: #282c34;
 }
 
 
