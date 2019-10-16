@@ -551,5 +551,10 @@ export const wordList = [
   {
     "word": "Unit Testing",
     "definition": "Unit Testing is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output."
+  },
+  {
+    "word": "CLI",
+    "definition": "CLI is known as command line interface,CLI is a command line program that accepts text input to execute operating system functions."
   }
+  
 ]
