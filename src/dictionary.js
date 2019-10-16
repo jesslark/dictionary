@@ -28,10 +28,6 @@ export const wordList = [
     "definition": "ANTLR takes as input a grammar that specifies a language and generates as output source code for a recognizer for that language."
   },
   {
-    "word": "ANTLR",
-    "definition": "ANTLR takes as input a grammar that specifies a language and generates as output source code for a recognizer for that language."
-  },
-  {
     "word": "Arduino",
     "definition": "Arduino is an open source hardware and software company and maker community."
   },
