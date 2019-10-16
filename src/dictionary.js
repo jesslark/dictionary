@@ -1,8 +1,36 @@
 export const wordList = [
   {
+    "word": "Artificial Intelligence (AI)",
+    "definition": "Artificial intelligence is the ability of a computer or machine to perform tasks commonly associated with intelligent beings."
+  },
+  {
     "word": "AJAX",
     "definition": "Short for Asynchronous JavaScript and XML.",
     "wikilink": "https://en.wikipedia.org/wiki/Ajax"
+  },
+  {
+    "word": "Algolia",
+    "definition": "Algolia is a hosted search API for web and mobile applications."
+  },
+  {
+    "word": "Atom",
+    "definition": "Atom is a open source text editor built with web technologies."
+  },
+  {
+    "word": "API",
+    "definition": "An API (Application Programming Interface) is a collection of protocols and subroutines for building software."
+  },
+  {
+    "word": "Arch Linux",
+    "definition": "A lightweight and flexible Linux distribution that tries to Keep It Simple."
+  },
+  {
+    "word": "ANTLR",
+    "definition": "ANTLR takes as input a grammar that specifies a language and generates as output source code for a recognizer for that language."
+  },
+  {
+    "word": "Arduino",
+    "definition": "Arduino is an open source hardware and software company and maker community."
   },
   {
     "word": "UAT (User Acceptance Testing)",
@@ -17,8 +45,20 @@ export const wordList = [
     "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
   },
   {
+      "word": "AWS",
+      "definition": "Amazon Web Services - popular cloud computing provider."
+  },
+  {
     "word": "Back-end",
     "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
+  },
+  {
+    "word": "Elixir",
+    "definition": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications."
+  },
+  {
+    "word": "Elm",
+    "definition": "A Delightful Language for Reliable Webapps."
   },
   {
     "word": "BEM",
@@ -27,6 +67,10 @@ export const wordList = [
   {
     "word": "Bit",
     "definition": "A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte."
+  },
+  {
+    "word": "Bitcoin",
+    "definition": "Bitcoin is a cryptocurrency developed by Satoshi Nakamoto."
   },
   {
     "word": "BIOS",
@@ -61,6 +105,14 @@ export const wordList = [
     "definition": "Pronounced 'C-Sharp' - A general-purpose object-oriented programming language developed by Microsoft."
   },
   {
+    "word": "Apache Cassandra",
+    "definition": "Apache Cassandra is a free, open source, distributed, NoSQL database management system."
+  },
+  {
+    "word": "cdnjs",
+    "definition": "The first free and open source CDN built to make life easier for developers."
+  },
+  {
     "word": "Cache",
     "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
   },
@@ -83,6 +135,10 @@ export const wordList = [
   {
     "word": "Database",
     "definition": "A database is an organized collection of data. More specifically, a database is an electronic system that allows data to be easily accessed, manipulated and updated."
+  },
+  {
+    "word": "Discord",
+    "definition": "Discord is a free voice, video, and text chat app for teens and adults ages 13 and up."
   },
   {
     "word": "Data Science",
@@ -113,6 +169,10 @@ export const wordList = [
     "definition": "The Domain Name System (DNS) is a hierarchical decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities."
   },
   {
+    "word": "Docker",
+    "definition": "Docker is a platform built for developers to build and run applications."
+  },
+  {
     "word": "DOM",
     "definition": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects."
   },
@@ -131,6 +191,10 @@ export const wordList = [
   {
     "word": "FTP",
     "definition": "File transfer protocol (FTP) is a common method of transferring files via the internet from one host to another host."
+  },
+    {
+    "word": "Gateway",
+    "definition": "A gateway is a device that routes traffic between networks."
   },
   {
     "word": "GIF",
@@ -164,6 +228,15 @@ export const wordList = [
     "word": "IDE",
     "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, build automation tools, and intelligent code completion."
   },
+
+  {
+    "word": "IP address",
+    "definition": " An Internet Protocol address, or IP address, is a numerical address that corresponds to your computer on a network"
+  },
+  {
+    "word": "IPv4 and IPv6",
+    "definition": " two types of IP address."
+  },
   {
     "word": "Java",
     "definition": "A general-purpose object-oriented programming language."
@@ -175,6 +248,10 @@ export const wordList = [
   {
     "word": "JPEG",
     "definition": "JPEG stands for Joint Photographic Experts Group, which was the committee that created the file format known as JPEG. The format is commonlyl used for photos displayed on the world wide web."
+  },
+  {
+    "word": "Kebab Case",
+    "definition": "Using dashes instead of spaces for a group of words. Mainly used for variables or CSS classes. e.g. my-new-variable."
   },
   {
     "word": "LAN",
@@ -205,6 +282,14 @@ export const wordList = [
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
+      "word": "Mutable",
+      "definition": "Mutability refers to the ability to change an object. For example if you have an immutable string, you cannot reassign that string after it's been created"
+  },
+  {
+    "word": "NAT",
+    "definition": "NAT(Network Address translation is used by routers to share a single IP address among many devices."
+  },
+  {
     "word": ".NET",
     "definition": "Pronounced: 'dot net' - Operating system platform (or framework) developed by Microsoft."
   },
@@ -230,7 +315,7 @@ export const wordList = [
   },
   {
     "word": "Object-oriented",
-    "definition": "A type of programming organized around objects."
+    "definition": "A type of programming organized around data, or objects, rather than functions and logic."
   },
   {
     "word": "OOCSS",
@@ -269,6 +354,10 @@ export const wordList = [
     "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
   },
   {
+      "word": "Pure Function",
+      "definition": "A function that, given the same input parameters, will always return the same result. This is relevant as it means that the state of your application does not affect how the function operates."
+  },
+  {
     "word": "PWAs",
     "definition": "Progressive Web Apps. a web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access traditionally available only to native mobile applications."
   },
@@ -282,7 +371,7 @@ export const wordList = [
   },
   {
     "word": "React",
-    "definition": "A JavaScript library for building user interfaces."
+    "definition": "React (also known as React.js or ReactJS) is a JavaScript library that makes developing interactive user interfaces simple."
   },
   {
     "word": "Refactoring",
@@ -350,24 +439,27 @@ export const wordList = [
   },
   {
     "word": "TypeScript",
-    "definition": "Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language."
+    "definition": "1) Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. 2) TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
   },
   {
     "word": "WWW",
     "definition": "Acronym for World Wide Web, is an information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet"
   },
   {
+    "word": "XSS",
+    "definition": "Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites."
+  },
+  {
     "word": "Yarn",
     "definition": "An alternative to NPM (Node.js Package Manager) developed by Facebook. It is generally considered to be faster and more secure than NPM, although they are mostly interchangeable."
-  },
-
-  {
-    "word": "TypeScript",
-    "definition": "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
   },
   {
     "word": "REST API",
     "definition": "API that uses HTTP requests to GET, PUT, POST and DELETE data. REST API is based on representational state transfer (REST) technology, an architectual style and approach to communications, often used in web services development."
+  },
+  {
+    "word": "Router",
+    "definition": "A router is a device that passes traffic back and forth, while communication."
   },
   {
     "word": "Soap API",
@@ -406,6 +498,10 @@ export const wordList = [
     "definition": "A variable is a value that can change, depending on conditions or on information passed through the program."
   },
   {
+    "word": "Android",
+    "definition": "Android is an operating system built by Google designed for mobile devices."
+  },
+  {
     "word": "CSV",
     "definition": "Is a comma-separated values file, which allows data to be saved in a tabular format"
   },
@@ -425,9 +521,9 @@ export const wordList = [
     "word": "Functional Programming",
     "definition": "Functional Programming is a style of building the structure and elements of computer programs - that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements"
   },
-  {    
+  {
     "word": "Stack",
-    "definition": "A stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and, pop, which removes most recently added element that was not yet removed." 
+    "definition": "A stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and, pop, which removes most recently added element that was not yet removed."
   },
   {
     "word": "Test Driven Development",
@@ -528,5 +624,45 @@ export const wordList = [
   {
     "word": "Bootstrap",
     "definition": "A popular front-end framework often used to build websites quickly using pre-defined CSS styles for design elements such as layout, typography, color and much more."
+  },
+  {
+    "word": "Blockchain",
+    "definition": "Blockchains are distributed ledgers that can record transactions between parties in a verifiable and permanent way."
+  },
+  {
+    "word": "Unit Testing",
+    "definition": "Unit Testing is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output."
+  },
+  {
+    "word": "MVP",
+    "definition": "The minimum viable product (MVP) is the most pared-down version of a product that can be released to market. When adopting an MVP approach, developers will first focus on the core features and functions that are absolutely crucial."
+  },
+  {
+    "word": "Wireframe",
+    "definition": "Wireframes help designers to communicate to web developers how a website should be structured. A wireframe is essentially a bare-bones blueprint of the website, showing the page layout, how the content should be arranged, which interface elements and navigational systems should be included, and how all these components work together."
+  },
+  {
+    "word": "C",
+    "definition": "C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. C is a widely used language that has influenced many other popular languages such as C++."
+  },
+  {
+    "word": "Unified Modeling Language (UML)",
+    "definition": "UML is a general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."
+  },
+  {
+    "word": "Semantic-UI",
+    "definition": "Is front-end CSS and JS based component-library to develop faster nice UIs."
+  },
+  {
+    "word": "Ruby on Rails",
+    "definition": "A fullstack web Framework to write nice websites or APIs in Ruby."
+  },
+  {
+    "word": "Arc42",
+    "definition": "Arc42 is a Framework to document Software."
+  },
+  {
+    "word": "Model View Controller (MVC)",
+    "definition": "MVC is a software pattern to organise code. It separate the logic for data representation and data handling."
   }
 ]
