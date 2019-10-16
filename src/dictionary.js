@@ -52,6 +52,10 @@ export const wordList = [
     "definition": "A bit (short for binary digit) is the smallest unit of measurement in computing. 8 bits make up 1 byte."
   },
   {
+    "word": "Bitcoin",
+    "definition": "Bitcoin is a cryptocurrency developed by Satoshi Nakamoto."
+  },
+  {
     "word": "BIOS",
     "definition": "Stands for Basic Input/Output System. It is firmware that allows you to change or view the 'settings' of the computer."
   },
@@ -84,6 +88,14 @@ export const wordList = [
     "definition": "Pronounced 'C-Sharp' - A general-purpose object-oriented programming language developed by Microsoft."
   },
   {
+    "word": "Apache Cassandra",
+    "definition": "Apache Cassandra is a free, open source, distributed, NoSQL database management system."
+  },
+  {
+    "word": "cdnjs",
+    "definition": "The first free and open source CDN built to make life easier for developers."
+  },
+  {
     "word": "Cache",
     "definition": "When you download (read) a web page, the data is 'cached', meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly. The downside to this is that if the cached web page is often updated, you may miss the latest version. If you suspect that the web page you're seeing is not the latest version, use the 'refresh' button on your browser."
   },
@@ -106,6 +118,10 @@ export const wordList = [
   {
     "word": "Database",
     "definition": "A database is an organized collection of data. More specifically, a database is an electronic system that allows data to be easily accessed, manipulated and updated."
+  },
+  {
+    "word": "Discord",
+    "definition": "Discord is a free voice, video, and text chat app for teens and adults ages 13 and up."
   },
   {
     "word": "Data Science",
@@ -134,6 +150,10 @@ export const wordList = [
   {
     "word": "DNS",
     "definition": "The Domain Name System (DNS) is a hierarchical decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities."
+  },
+  {
+    "word": "Docker",
+    "definition": "Docker is a platform built for developers to build and run applications."
   },
   {
     "word": "DOM",
@@ -571,6 +591,10 @@ export const wordList = [
   {
     "word": "Bootstrap",
     "definition": "A popular front-end framework often used to build websites quickly using pre-defined CSS styles for design elements such as layout, typography, color and much more."
+  },
+  {
+    "word": "Blockchain",
+    "definition": "Blockchains are distributed ledgers that can record transactions between parties in a verifiable and permanent way."
   },
   {
     "word": "Unit Testing",
