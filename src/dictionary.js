@@ -250,7 +250,7 @@ export const wordList = [
   },
   {
     "word": "Object-oriented",
-    "definition": "A type of programming organized around objects."
+    "definition": "A type of programming organized around data, or objects, rather than functions and logic."
   },
   {
     "word": "OOCSS",
