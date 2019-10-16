@@ -619,5 +619,25 @@ export const wordList = [
   {
     "word": "C",
     "definition": "C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. C is a widely used language that has influenced many other popular languages such as C++."
+  },
+  {
+    "word": "Unified Modeling Language (UML)",
+    "definition": "UML is a general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."
+  },
+  {
+    "word": "Semantic-UI",
+    "definition": "Is front-end CSS and JS based component-library to develop faster nice UIs."
+  },
+  {
+    "word": "Ruby on Rails",
+    "definition": "A fullstack web Framework to write nice websites or APIs in Ruby."
+  },
+  {
+    "word": "Arc42",
+    "definition": "Arc42 is a Framework to document Software."
+  },
+  {
+    "word": "Model View Controller (MVC)",
+    "definition": "MVC is a software pattern to organise code. It separate the logic for data representation and data handling."
   }
 ]
