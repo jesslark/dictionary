@@ -16,6 +16,10 @@ export const wordList = [
     "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
   },
   {
+      "word": "AWS",
+      "definition": "Amazon Web Services - popular cloud computing provider."
+  },
+  {
     "word": "Back-end",
     "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
   },
@@ -221,6 +225,10 @@ export const wordList = [
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
+      "word": "Mutable",
+      "definition": "Mutability refers to the ability to change an object. For example if you have an immutable string, you cannot reassign that string after it's been created"
+  },
+  {
     "word": "NAT",
     "definition": "NAT(Network Address translation is used by routers to share a single IP address among many devices."
   },
@@ -287,6 +295,10 @@ export const wordList = [
   {
     "word": "Programming Language",
     "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
+  },
+  {
+      "word": "Pure Function",
+      "definition": "A function that, given the same input parameters, will always return the same result. This is relevant as it means that the state of your application does not affect how the function operates."
   },
   {
     "word": "PWAs",
