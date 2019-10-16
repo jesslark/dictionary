@@ -4,6 +4,30 @@ export const wordList = [
     "definition": "Short for Asynchronous JavaScript and XML."
   },
   {
+    "word": "Atom",
+    "definition": "Atom is a open source text editor built with web technologies."
+  },
+  {
+    "word": "API",
+    "definition": "An API (Application Programming Interface) is a collection of protocols and subroutines for building software."
+  },
+  {
+    "word": "Arch Linux",
+    "definition": "A lightweight and flexible Linux distribution that tries to Keep It Simple."
+  },
+  {
+    "word": "ANTLR",
+    "definition": "ANTLR takes as input a grammar that specifies a language and generates as output source code for a recognizer for that language."
+  },
+  {
+    "word": "ANTLR",
+    "definition": "ANTLR takes as input a grammar that specifies a language and generates as output source code for a recognizer for that language."
+  },
+  {
+    "word": "Arduino",
+    "definition": "Arduino is an open source hardware and software company and maker community."
+  },
+  {
     "word": "UAT (User Acceptance Testing)",
     "definition": "Formal testing done often by the user, with respect to user needs, requirements, and business processes conducted to determine whether or not a system satisfies the acceptance criteria and to enable the user to determine whether or not to accept the system."
   },
@@ -302,7 +326,7 @@ export const wordList = [
   },
   {
     "word": "React",
-    "definition": "A JavaScript library for building user interfaces."
+    "definition": "React (also known as React.js or ReactJS) is a JavaScript library that makes developing interactive user interfaces simple."
   },
   {
     "word": "Refactoring",
