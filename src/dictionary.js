@@ -5,7 +5,8 @@ export const wordList = [
   },
   {
     "word": "AJAX",
-    "definition": "Short for Asynchronous JavaScript and XML."
+    "definition": "Short for Asynchronous JavaScript and XML.",
+    "wikilink": "https://en.wikipedia.org/wiki/Ajax"
   },
   {
     "word": "Algolia",
