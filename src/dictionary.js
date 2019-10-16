@@ -366,7 +366,7 @@ export const wordList = [
   },
   {
     "word": "TypeScript",
-    "definition": "Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language."
+    "definition": "1) Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. 2) TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
   },
   {
     "word": "WWW",
