@@ -1,7 +1,15 @@
 export const wordList = [
   {
+    "word": "Artificial Intelligence (AI)",
+    "definition": "Artificial intelligence is the ability of a computer or machine to perform tasks commonly associated with intelligent beings."
+  },
+  {
     "word": "AJAX",
     "definition": "Short for Asynchronous JavaScript and XML."
+  },
+  {
+    "word": "Algolia",
+    "definition": "Algolia is a hosted search API for web and mobile applications."
   },
   {
     "word": "Atom",
@@ -42,6 +50,14 @@ export const wordList = [
   {
     "word": "Back-end",
     "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
+  },
+  {
+    "word": "Elixir",
+    "definition": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications."
+  },
+  {
+    "word": "Elm",
+    "definition": "A Delightful Language for Reliable Webapps."
   },
   {
     "word": "BEM",
@@ -467,6 +483,10 @@ export const wordList = [
   {
     "word": "Variable",
     "definition": "A variable is a value that can change, depending on conditions or on information passed through the program."
+  },
+  {
+    "word": "Android",
+    "definition": "Android is an operating system built by Google designed for mobile devices."
   },
   {
     "word": "CSV",
