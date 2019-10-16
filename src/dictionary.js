@@ -433,6 +433,10 @@ export const wordList = [
     "definition": "Acronym for World Wide Web, is an information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet"
   },
   {
+    "word": "XSS",
+    "definition": "Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites."
+  },
+  {
     "word": "Yarn",
     "definition": "An alternative to NPM (Node.js Package Manager) developed by Facebook. It is generally considered to be faster and more secure than NPM, although they are mostly interchangeable."
   },
