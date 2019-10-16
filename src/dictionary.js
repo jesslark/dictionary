@@ -167,7 +167,7 @@ export const wordList = [
     "word": "IDE",
     "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, build automation tools, and intelligent code completion."
   },
-  
+
   {
     "word": "IP address",
     "definition": " An Internet Protocol address, or IP address, is a numerical address that corresponds to your computer on a network"
@@ -187,6 +187,10 @@ export const wordList = [
   {
     "word": "JPEG",
     "definition": "JPEG stands for Joint Photographic Experts Group, which was the committee that created the file format known as JPEG. The format is commonlyl used for photos displayed on the world wide web."
+  },
+  {
+    "word": "Kebab Case",
+    "definition": "Using dashes instead of spaces for a group of words. Mainly used for variables or CSS classes. e.g. my-new-variable."
   },
   {
     "word": "LAN",
@@ -440,9 +444,9 @@ export const wordList = [
     "word": "Functional Programming",
     "definition": "Functional Programming is a style of building the structure and elements of computer programs - that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements"
   },
-  {    
+  {
     "word": "Stack",
-    "definition": "A stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and, pop, which removes most recently added element that was not yet removed." 
+    "definition": "A stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and, pop, which removes most recently added element that was not yet removed."
   },
   {
     "word": "Test Driven Development",
