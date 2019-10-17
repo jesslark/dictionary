@@ -101,7 +101,10 @@ export const wordList = [
   },
   {
     "word": "Dev",
-    "definition": "Short for 'Developer'."
+    "definition": [
+      "Short for 'Developer'.",
+      "Short for 'Development'. e.g. Game Dev, Web Dev"
+    ]
   },
   {
     "word": "Developer",
