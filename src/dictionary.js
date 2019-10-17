@@ -678,6 +678,14 @@ export const wordList = [
   {
     "word": "MongoDB",
     "definition": "MongoDB is a open source document oriented database written in C++. It is classified as a NOSQL database"
+  },
+  {
+    "word": "WCAG",
+    "definition": "WCAG stands for Web Content Accessibility Guidelines, and are a series of guidelines/recommendations dedicated to web accessibility. WCAG includes four key principles (perceiveable, operable, understandable, robust) and three priority levels (A, AA, AAA) to encompass ensuring access to all users."
+  },
+  {
+    "word": "WAI-ARIA",
+    "definition": "WAI-ARIA stands for 'Web Accessibility Initiative – Accessible Rich Internet Applications'. This is a technical specification published by the World Wide Web Consortium (W3C). ARIA attributes define ways to make web content and applications (especially those using JavaScript) more accessible, and supplements HTML when interacting with assistive technologies. Note: While still actively used, many ARIA widgets have been incorporated into HTML5."
   }
   
 ]
