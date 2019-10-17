@@ -46,14 +46,24 @@ flex: 1;
 
 .definition {
   margin-top: -5px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.wikilinks a:hover {
+  text-decoration: underline;
 }
 
 .wikilinks a {
-  font-family: ;
+  font-style: italic ;
+  background-color: black;
+  border-radius: 8px;
+  padding: 1px 5px;
 }
 
 .light .wikilinks a {
     color: #282c34;
+    background-color: rgba(187, 199, 231, 0.253);
 }
 
 
