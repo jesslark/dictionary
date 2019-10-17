@@ -2,6 +2,11 @@ body {
   font-family: 'Chivo', sans-serif;
 }
 
+
+h1 {
+  font-family: 'Turret Road', cursive;
+}
+
 .header,
 .footer {
   width: 100%;
@@ -12,6 +17,10 @@ body {
 .footer {
   height: 100px;
   margin-top: 20px;
+}
+
+.content{
+flex: 1;
 }
 
 
@@ -32,10 +41,29 @@ body {
   border-bottom: #42a5f5 4px solid;
   padding: 10px 5px;
   margin-top: 0;
+  font-family: 'Turret Road', cursive;
 }
 
 .definition {
   margin-top: -5px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.wikilinks a:hover {
+  text-decoration: underline;
+}
+
+.wikilinks a {
+  font-style: italic ;
+  background-color: black;
+  border-radius: 8px;
+  padding: 1px 5px;
+}
+
+.light .wikilinks a {
+    color: #282c34;
+    background-color: rgba(187, 199, 231, 0.253);
 }
 
 
@@ -77,11 +105,17 @@ a {
 .dark {
   background: #282c34;
   color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .light {
   background: white;
   color: #282c34;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .light label {

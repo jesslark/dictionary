@@ -44,6 +44,9 @@ function App() {
           <h3 className="word">{entry.word}</h3>
           <p dangerouslySetInnerHTML={{ __html: entry.definition }} className="definition">
           </p>
+          <p className='wikilinks'>
+            <a href={`https://en.wikipedia.org/wiki/${entry.word}`} target="_blank" rel="noreferrer noopener">Visit Wikipedia - {entry.word}</a>
+          </p>
         </div>
       )
     });
@@ -74,6 +77,7 @@ function App() {
   };
 
   return (
+
     <div className={colorTheme}>
 
       <div id="top-page"></div>
@@ -92,18 +96,18 @@ function App() {
           <h5>Dictionary of words that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.</h5>
         </div>
       </div>
-
-      <div className="container">
-        <h3>Search</h3>
-        <input type="text" id="search" placeholder="Search in words and definitions here" value={searchTerm} onChange={handleSearchInput} />
-      </div>
-
-      <div className="container">
-        <div id="dictionary" className="row">
-          {displayEntries(dictionary)}
+    <div className="content">
+        <div className="container">
+            <h3>Search</h3>
+            <input type="text" id="search" placeholder="Search in words and definitions here" value={searchTerm} onChange={handleSearchInput} />
         </div>
-      </div>
 
+        <div className="container">
+            <div id="dictionary" className="row">
+                {displayEntries(dictionary)}
+            </div>
+        </div>
+    </div>
       <div className="footer">
         <div className="container">
           <p>For more information about DevDictionary, see the <a href="https://github.com/jessmear/dictionary-for-devs">github repo</a>.</p>
