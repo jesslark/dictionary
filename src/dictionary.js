@@ -664,5 +664,9 @@ export const wordList = [
   {
     "word": "Model View Controller (MVC)",
     "definition": "MVC is a software pattern to organise code. It separate the logic for data representation and data handling."
+  },
+  {
+    "word": "MongoDB",
+    "definition": "MongoDB is a open source document oriented database written in C++. It is classified as a NOSQL database"
   }
 ]
