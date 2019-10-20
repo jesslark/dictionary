@@ -18,7 +18,10 @@ export const wordList = [
   },
   {
     "word": "API",
-    "definition": "An API (Application Programming Interface) is a collection of protocols and subroutines for building software."
+    "definition": [
+        "An API (Application Programming Interface) is a collection of protocols and subroutines for building software.",
+        "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
+    ]
   },
   {
     "word": "Arch Linux",
@@ -39,10 +42,6 @@ export const wordList = [
   {
     "word": "Algorithm",
     "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
-  },
-  {
-    "word": "API",
-    "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
   },
   {
       "word": "AWS",
