@@ -53,16 +53,12 @@ export const wordList = [
     "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
   },
   {
-    "word": "Elixir",
-    "definition": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications."
-  },
-  {
-    "word": "Elm",
-    "definition": "A Delightful Language for Reliable Webapps."
-  },
-  {
     "word": "BEM",
     "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
+  },
+  {
+    "word": "Binary",
+    "definition": "Binary (or base-2) a numeric system that only uses two digits — 0 and 1."
   },
   {
     "word": "Bit",
@@ -158,10 +154,7 @@ export const wordList = [
   },
   {
     "word": "Dev",
-    "definition": [
-      "Short for 'Developer'.",
-      "Short for 'Development'. e.g. Game Dev, Web Dev"
-    ]
+    "definition": ["Short for 'Developer'.","Short for 'Development'. e.g. Game Dev, Web Dev"]
   },
   {
     "word": "Developer",
@@ -178,6 +171,14 @@ export const wordList = [
   {
     "word": "DOM",
     "definition": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects."
+  },
+  {
+    "word": "Elixir",
+    "definition": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications."
+  },
+  {
+    "word": "Elm",
+    "definition": "A Delightful Language for Reliable Webapps."
   },
   {
     "word": "Esoteric Programming Language",
