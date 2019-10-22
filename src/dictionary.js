@@ -5,7 +5,8 @@ export const wordList = [
   },
   {
     "word": "AJAX",
-    "definition": "Short for Asynchronous JavaScript and XML."
+    "definition": "Short for Asynchronous JavaScript and XML.",
+    "wikilink": "https://en.wikipedia.org/wiki/Ajax"
   },
   {
     "word": "Algolia",
@@ -28,10 +29,6 @@ export const wordList = [
     "definition": "ANTLR takes as input a grammar that specifies a language and generates as output source code for a recognizer for that language."
   },
   {
-    "word": "ANTLR",
-    "definition": "ANTLR takes as input a grammar that specifies a language and generates as output source code for a recognizer for that language."
-  },
-  {
     "word": "Arduino",
     "definition": "Arduino is an open source hardware and software company and maker community."
   },
@@ -48,20 +45,20 @@ export const wordList = [
     "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
   },
   {
+      "word": "AWS",
+      "definition": "Amazon Web Services - popular cloud computing provider."
+  },
+  {
     "word": "Back-end",
     "definition": "Sometimes referred to as 'server-side', this refers to what a user can't see like databases or servers. It organises and stores data."
   },
   {
-    "word": "Elixir",
-    "definition": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications."
-  },
-  {
-    "word": "Elm",
-    "definition": "A Delightful Language for Reliable Webapps."
-  },
-  {
     "word": "BEM",
     "definition": "Acronym for block, element, modifier. BEM is a strict writing CSS rules. With BEM you will write some like this: '.block-element--modifier'. Ex.: 'menu-item--active'"
+  },
+  {
+    "word": "Binary",
+    "definition": "Binary (or base-2) a numeric system that only uses two digits — 0 and 1."
   },
   {
     "word": "Bit",
@@ -157,7 +154,7 @@ export const wordList = [
   },
   {
     "word": "Dev",
-    "definition": "Short for 'Developer'."
+    "definition": ["Short for 'Developer'.","Short for 'Development'. e.g. Game Dev, Web Dev"]
   },
   {
     "word": "Developer",
@@ -174,6 +171,14 @@ export const wordList = [
   {
     "word": "DOM",
     "definition": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects."
+  },
+  {
+    "word": "Elixir",
+    "definition": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications."
+  },
+  {
+    "word": "Elm",
+    "definition": "A Delightful Language for Reliable Webapps."
   },
   {
     "word": "Esoteric Programming Language",
@@ -281,6 +286,10 @@ export const wordList = [
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
+      "word": "Mutable",
+      "definition": "Mutability refers to the ability to change an object. For example if you have an immutable string, you cannot reassign that string after it's been created"
+  },
+  {
     "word": "NAT",
     "definition": "NAT(Network Address translation is used by routers to share a single IP address among many devices."
   },
@@ -310,7 +319,7 @@ export const wordList = [
   },
   {
     "word": "Object-oriented",
-    "definition": "A type of programming organized around objects."
+    "definition": "A type of programming organized around data, or objects, rather than functions and logic."
   },
   {
     "word": "OOCSS",
@@ -347,6 +356,10 @@ export const wordList = [
   {
     "word": "Programming Language",
     "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
+  },
+  {
+      "word": "Pure Function",
+      "definition": "A function that, given the same input parameters, will always return the same result. This is relevant as it means that the state of your application does not affect how the function operates."
   },
   {
     "word": "PWAs",
@@ -430,11 +443,18 @@ export const wordList = [
   },
   {
     "word": "TypeScript",
-    "definition": "1) Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. 2) TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
+    "definition": [
+      "Open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language.",
+      "TypeScript is an open-source programming language developed and maintained by Microsoft. TypeScript is a layer around JavaScript with static typing and more methods. TypeScript transcompiles into JavaScript."
+    ]
   },
   {
     "word": "WWW",
     "definition": "Acronym for World Wide Web, is an information space where documents and other web resources are identified by URLs, interlinked by hypertext links and accessible via the Internet"
+  },
+  {
+    "word": "XSS",
+    "definition": "Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites."
   },
   {
     "word": "Yarn",
@@ -619,5 +639,54 @@ export const wordList = [
   {
     "word": "Unit Testing",
     "definition": "Unit Testing is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output."
+  },
+  {
+    "word": "CLI",
+    "definition": "CLI is known as command line interface,CLI is a command line program that accepts text input to execute operating system functions."
+  },
+  {
+    "word": "MVP",
+    "definition": "The minimum viable product (MVP) is the most pared-down version of a product that can be released to market. When adopting an MVP approach, developers will first focus on the core features and functions that are absolutely crucial."
+  },
+  {
+    "word": "Wireframe",
+    "definition": "Wireframes help designers to communicate to web developers how a website should be structured. A wireframe is essentially a bare-bones blueprint of the website, showing the page layout, how the content should be arranged, which interface elements and navigational systems should be included, and how all these components work together."
+  },
+  {
+    "word": "C",
+    "definition": "C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. C is a widely used language that has influenced many other popular languages such as C++."
+  },
+  {
+    "word": "Unified Modeling Language (UML)",
+    "definition": "UML is a general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."
+  },
+  {
+    "word": "Semantic-UI",
+    "definition": "Is front-end CSS and JS based component-library to develop faster nice UIs."
+  },
+  {
+    "word": "Ruby on Rails",
+    "definition": "A fullstack web Framework to write nice websites or APIs in Ruby."
+  },
+  {
+    "word": "Arc42",
+    "definition": "Arc42 is a Framework to document Software."
+  },
+  {
+    "word": "Model View Controller (MVC)",
+    "definition": "MVC is a software pattern to organise code. It separate the logic for data representation and data handling."
+  },
+  {
+    "word": "MongoDB",
+    "definition": "MongoDB is a open source document oriented database written in C++. It is classified as a NOSQL database"
+  },
+  {
+    "word": "WCAG",
+    "definition": "WCAG stands for Web Content Accessibility Guidelines, and are a series of guidelines/recommendations dedicated to web accessibility. WCAG includes four key principles (perceiveable, operable, understandable, robust) and three priority levels (A, AA, AAA) to encompass ensuring access to all users."
+  },
+  {
+    "word": "WAI-ARIA",
+    "definition": "WAI-ARIA stands for 'Web Accessibility Initiative – Accessible Rich Internet Applications'. This is a technical specification published by the World Wide Web Consortium (W3C). ARIA attributes define ways to make web content and applications (especially those using JavaScript) more accessible, and supplements HTML when interacting with assistive technologies. Note: While still actively used, many ARIA widgets have been incorporated into HTML5."
   }
+  
 ]

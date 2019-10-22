@@ -3,6 +3,11 @@ import './style.css';
 import { wordList } from './dictionary.js'
 
 function App() {
+  const formatContent = (content) => {
+    let formattedContent = alphabetizeContent(content);
+    return formatMultipleDefinitions(formattedContent);
+  }
+
   const alphabetizeContent = (content) => {
     content.sort((entryA, entryB) => {
       if (entryA.word.toLowerCase() > entryB.word.toLowerCase()) {
@@ -14,7 +19,20 @@ function App() {
     return content;
   };
 
-  const fullDictionary = alphabetizeContent(wordList);
+  const formatMultipleDefinitions = (content) => {
+    content.forEach( (entry) => {
+      if ( Array.isArray(entry.definition) ) {
+        let definitionItems = '';
+        entry.definition.forEach( (definition) => {
+          definitionItems += `<li>${definition}</li>`;
+        })
+        entry.definition = `<ol>${definitionItems}</ol>`;
+      }
+    })
+    return content;
+  };
+
+  const fullDictionary = formatContent(wordList);
   const [dictionary, updateDictionary] = useState(fullDictionary);
   const [colorTheme, switchTheme] = useState('dark');
   const [searchTerm, setSearchTerm] = useState('');
@@ -24,8 +42,10 @@ function App() {
       return (
         <div className="entry" key={i}>
           <h3 className="word">{entry.word}</h3>
-          <p className="definition">
-            {entry.definition}
+          <p dangerouslySetInnerHTML={{ __html: entry.definition }} className="definition">
+          </p>
+          <p className='wikilinks'>
+            <a href={`https://en.wikipedia.org/wiki/${entry.word}`} target="_blank" rel="noreferrer noopener">Visit Wikipedia - {entry.word}</a>
           </p>
         </div>
       )
@@ -57,6 +77,7 @@ function App() {
   };
 
   return (
+
     <div className={colorTheme}>
 
       <div id="top-page"></div>
@@ -75,18 +96,18 @@ function App() {
           <h5>Dictionary of words that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.</h5>
         </div>
       </div>
-
-      <div className="container">
-        <h3>Search</h3>
-        <input type="text" id="search" placeholder="Search in words and definitions here" value={searchTerm} onChange={handleSearchInput} />
-      </div>
-
-      <div className="container">
-        <div id="dictionary" className="row">
-          {displayEntries(dictionary)}
+    <div className="content">
+        <div className="container">
+            <h3>Search</h3>
+            <input type="text" id="search" placeholder="Search in words and definitions here" value={searchTerm} onChange={handleSearchInput} />
         </div>
-      </div>
 
+        <div className="container">
+            <div id="dictionary" className="row">
+                {displayEntries(dictionary)}
+            </div>
+        </div>
+    </div>
       <div className="footer">
         <div className="container">
           <p>For more information about DevDictionary, see the <a href="https://github.com/jessmear/dictionary-for-devs">github repo</a>.</p>
