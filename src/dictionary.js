@@ -45,8 +45,8 @@ export const wordList = [
     "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
   },
   {
-      "word": "AWS",
-      "definition": "Amazon Web Services - popular cloud computing provider."
+    "word": "AWS",
+    "definition": "Amazon Web Services - popular cloud computing provider."
   },
   {
     "word": "Back-end",
@@ -154,7 +154,7 @@ export const wordList = [
   },
   {
     "word": "Dev",
-    "definition": ["Short for 'Developer'.","Short for 'Development'. e.g. Game Dev, Web Dev"]
+    "definition": ["Short for 'Developer'.", "Short for 'Development'. e.g. Game Dev, Web Dev"]
   },
   {
     "word": "Developer",
@@ -196,7 +196,7 @@ export const wordList = [
     "word": "FTP",
     "definition": "File transfer protocol (FTP) is a common method of transferring files via the internet from one host to another host."
   },
-    {
+  {
     "word": "Gateway",
     "definition": "A gateway is a device that routes traffic between networks."
   },
@@ -286,8 +286,8 @@ export const wordList = [
     "definition": "<del>Pretty much a waste of money.</del> A commercial operating system developed by Microsoft."
   },
   {
-      "word": "Mutable",
-      "definition": "Mutability refers to the ability to change an object. For example if you have an immutable string, you cannot reassign that string after it's been created"
+    "word": "Mutable",
+    "definition": "Mutability refers to the ability to change an object. For example if you have an immutable string, you cannot reassign that string after it's been created"
   },
   {
     "word": "NAT",
@@ -358,8 +358,8 @@ export const wordList = [
     "definition": "A programming language is a type of written language that is used to provide instructions to the computer. Examples of programming languages include C, C#, C++, Java, Ruby, Python, and Go."
   },
   {
-      "word": "Pure Function",
-      "definition": "A function that, given the same input parameters, will always return the same result. This is relevant as it means that the state of your application does not affect how the function operates."
+    "word": "Pure Function",
+    "definition": "A function that, given the same input parameters, will always return the same result. This is relevant as it means that the state of your application does not affect how the function operates."
   },
   {
     "word": "PWAs",
@@ -417,7 +417,7 @@ export const wordList = [
     "word": "Source Code",
     "definition": "Source code is the collection of files containing instructions in a programming language that make up a program. Source code is commonly compiled into a program, or executable. It may also be run by an interpreter if it is an interpreted language such as Python or Ruby."
   },
-    {
+  {
     "word": "SQL ",
     "definition": "Structured Query Language (SQL) is a standard computer language for relational database management and data manipulation."
   },
@@ -687,6 +687,14 @@ export const wordList = [
   {
     "word": "WAI-ARIA",
     "definition": "WAI-ARIA stands for 'Web Accessibility Initiative – Accessible Rich Internet Applications'. This is a technical specification published by the World Wide Web Consortium (W3C). ARIA attributes define ways to make web content and applications (especially those using JavaScript) more accessible, and supplements HTML when interacting with assistive technologies. Note: While still actively used, many ARIA widgets have been incorporated into HTML5."
+  },
+  {
+    "word": "Pipeline",
+    "definition": "A Deployment pipeline is the process of taking code from version control and making it readily available to users of your application in an automated fashion. When a team of developers are working on projects or features they need a reliable and efficient way to build, test and deploy their work."
+  },
+  {
+    "word": "Travis CI",
+    "definition": "Travis CI is a hosted continuous integration service used to build and test software projects hosted at GitHub. Travis CI provides various paid plan for private projects, and a free plan for open source. TravisPro provides custom deployments of a proprietary version on the customer's own hardware"
   }
-  
+
 ]
