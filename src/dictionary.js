@@ -18,7 +18,10 @@ export const wordList = [
   },
   {
     "word": "API",
-    "definition": "An API (Application Programming Interface) is a collection of protocols and subroutines for building software."
+    "definition": [
+        "An API (Application Programming Interface) is a collection of protocols and subroutines for building software.",
+        "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
+    ]
   },
   {
     "word": "Arch Linux",
@@ -41,12 +44,60 @@ export const wordList = [
     "definition": "A sequence of instructions or a set of rules that are followed to solve a task."
   },
   {
+    "word": "AWS",
+    "definition": "Amazon Web Services - popular cloud computing provider."
+  },
+  {
     "word": "API",
     "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
   },
   {
     "word": "AWS",
     "definition": "Amazon Web Services - popular cloud computing provider."
+  },
+  {
+    "word": "Babel",
+    "definition": "Babel is a compiler for writing next generation JavaScript, today."
+  },
+  {
+    "word": "Backbone.js",
+    "definition": "Backbone.js is a JavaScript library for building modern web apps and services."
+  },
+  {
+    "word": "Bash",
+    "definition": "Bash is a shell and command language interpreter for the GNU operating system."
+  },
+  {
+    "word": "Django",
+    "definition": "Django is a web application framework for Python."
+  },
+  {
+    "word": "Discord",
+    "definition": "Discord is a free voice, video, and text chat app for teens and adults ages 13 and up."
+  },
+  {
+    "word": "Express",
+    "definition": "Express is a minimal Node.js framework for web and mobile applications."
+  },
+  {
+    "word": "ES6",
+    "definition": "ECMAScript 6 is the sixth release of the ECMAScript language."
+  },
+  {
+    "word": "Ember",
+    "definition": "Ember is a framework for creating web applications."
+  },
+  {
+    "word": "Ethereum",
+    "definition": "Ethereum is a distributed public blockchain network."
+  },
+  {
+    "word": "Firebase",
+    "definition": "Firebase is a mobile app development platform that provides data analysis and database web services for developers."
+  },
+  {
+    "word": "Basic-8",
+    "definition": "BASIC8 is an integrated Fantasy Computer for game, and other program development."
   },
   {
     "word": "Back-end",
@@ -79,6 +130,18 @@ export const wordList = [
   {
     "word": "Buffer",
     "definition": "A data buffer (or just buffer) is a region of a physical memory storage used to temporarily store data while it is being moved from one place to another."
+  },
+  {
+    "word": "Firefox",
+    "definition": "Firefox is an open source web browser from Mozilla."
+  },
+  {
+    "word": "Firefox extension",
+    "definition": "Firefox Extensions are add-ons that allow users to customize their web browser."
+  },
+  {
+    "word": "Flask",
+    "definition": "Flask is a web framework for Python based on the Werkzeug toolkit."
   },
   {
     "word": "Buffer overflow",
@@ -702,11 +765,10 @@ export const wordList = [
   },
   {
     "word": "Stack Smashing",
-    "definition": "Stack Smashing is when an attacker purposely overflows a buffer on stack to get access to forbidden regions of computer memory. This is really bad. A stack smash is based upon these attributes of common implementations of C and C++: A stack based language that stores data and return addresses on the same stack."
+    "definition":"Stack Smashing is when an attacker purposely overflows a buffer on stack to get access to forbidden regions of computer memory. This is really bad. A stack smash is based upon these attributes of common implementations of C and C++."
   },
   {
     "word": "Git",
-    "definition": "Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows."
+    "definition":"Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows."
   },
-
 ]
