@@ -493,6 +493,10 @@ export const wordList = [
     "definition": "A thread is a unit of execution; i. e., a program or part of a program that a computer can execute concurrently with others. A thread is a process, or part of it."
   },
   {
+    "word": "Tanglegram",
+    "definition": "Two phylogenetic trees as rooted trees side by side and to draw lines (which we will call connectors) between taxa that correspond to each other in the two trees."
+  },
+  {
     "word": "TLD",
     "definition": "Top Level Domain. One of the domains at the highest level in the hierarchical Domain Name System of the Internet (e.g., *.com, *.net, *.org)."
   },
