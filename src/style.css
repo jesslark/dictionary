@@ -24,16 +24,18 @@ flex: 1;
 }
 
 
+/* Please note we are using the Flexbox CSS layout! */
 #dictionary {
   display: flex;
   flex-wrap: wrap;
 }
 
 .entry {
+  flex-grow: 1;
+  flex-basis: 30%;
   box-sizing: border-box;
-  width: 25%;
   padding: 0;
-  margin: 30px 60px 0 0;
+  margin: 15px;
 }
 
 .word {
