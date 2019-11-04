@@ -758,5 +758,17 @@ export const wordList = [
   {
     "word": "Travis CI",
     "definition": "Travis CI is a hosted continuous integration service used to build and test software projects hosted at GitHub. Travis CI provides various paid plan for private projects, and a free plan for open source. TravisPro provides custom deployments of a proprietary version on the customer's own hardware"
-  }
+  },
+  {
+    "word": "Content Security Policy",
+    "definition": "Content Security Policy (CSP) is a computer security standard introduced to prevent cross-site scripting (XSS), clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context."
+  },
+  {
+    "word": "Stack Smashing",
+    "definition":"Stack Smashing is when an attacker purposely overflows a buffer on stack to get access to forbidden regions of computer memory. This is really bad. A stack smash is based upon these attributes of common implementations of C and C++."
+  },
+  {
+    "word": "Git",
+    "definition":"Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows."
+  },
 ]
