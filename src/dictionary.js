@@ -292,6 +292,10 @@ export const wordList = [
     "definition": "High Efficiency Video Coding, also known as H.265 and MPEG-H Part 2 is a video compression standard, one of the potential successors of H.264 AVC."
   },
   {
+    "word": "HELM",
+    "definition": "Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources."
+  },
+  {
     "word": "IDE",
     "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, build automation tools, and intelligent code completion."
   },
@@ -775,4 +779,17 @@ export const wordList = [
     "word": "Git",
     "definition":"Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows."
   },
+  {
+    "word": "Unity 3D",
+    "definition":"Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Inc.'s Worldwide Developers Conference as a Mac OS X-exclusive game engine. As of 2018, the engine had been extended to support more than 25 platforms."
+  },
+  {
+    "word": "Augmented reality",
+    "definition":" is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information, sometimes across multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory"
+  },
+  {
+    "word": "VS Code",
+    "definition": "Visual Studio Code is a free source-code editor written in TypeScript, JavaScript, and CSS.",
+    "wikilink": "https://en.wikipedia.org/wiki/Visual_Studio_Code"
+  }
 ]
