@@ -292,6 +292,10 @@ export const wordList = [
     "definition": "High Efficiency Video Coding, also known as H.265 and MPEG-H Part 2 is a video compression standard, one of the potential successors of H.264 AVC."
   },
   {
+    "word": "HELM",
+    "definition": "Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources."
+  },
+  {
     "word": "IDE",
     "definition": "Integrated Development Environment - an application that developers use for software development. IDEs will provide features such as a source code editor, debugger, build automation tools, and intelligent code completion."
   },
