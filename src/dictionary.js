@@ -792,4 +792,8 @@ export const wordList = [
     "definition": "Visual Studio Code is a free source-code editor written in TypeScript, JavaScript, and CSS.",
     "wikilink": "https://en.wikipedia.org/wiki/Visual_Studio_Code"
   }
+  {
+    "word": "Qubit",
+    "definition": "Qubits (short for quantum bit) are the basic unit of information in quantum computing."
+  }
 ]
