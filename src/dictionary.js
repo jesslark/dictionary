@@ -57,7 +57,8 @@ export const wordList = [
   },
   {
     "word": "Bash",
-    "definition": "Bash is a shell and command language interpreter for the GNU operating system."
+    "definition": "Bash is a shell and command language interpreter for the GNU operating system.",
+    "wikiFix": "Bash_(Unix_shell)"
   },
   {
     "word": "Django",
@@ -88,7 +89,7 @@ export const wordList = [
     "definition": "Firebase is a mobile app development platform that provides data analysis and database web services for developers."
   },
   {
-    "word": "Basic-8",
+    "word": "BASIC 8",
     "definition": "BASIC8 is an integrated Fantasy Computer for game, and other program development."
   },
   {
@@ -117,7 +118,7 @@ export const wordList = [
   },
   {
     "word": "Browser",
-    "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Firefox, Microsoft Edge and Internet Explorer."
+    "definition": "A software program that allows you to surf the web. Popular web browsers include Google Chrome, Mozilla Firefox, Safari, Microsoft Edge and Internet Explorer."
   },
   {
     "word": "Buffer",
@@ -153,7 +154,8 @@ export const wordList = [
   },
   {
     "word": "C#",
-    "definition": "Pronounced 'C-Sharp' - A general-purpose object-oriented programming language developed by Microsoft."
+    "definition": "Pronounced 'C-Sharp' - A general-purpose object-oriented programming language developed by Microsoft.",
+    "wikiFix": "C_Sharp_(programming_language)"
   },
   {
     "word": "Apache Cassandra",
@@ -217,7 +219,8 @@ export const wordList = [
   },
   {
     "word": "Docker",
-    "definition": "Docker is a platform built for developers to build and run applications."
+    "definition": "Docker is a platform built for developers to build and run applications.",
+    "wikiFix": "Docker_(software)"
   },
   {
     "word": "DOM",
@@ -565,7 +568,8 @@ export const wordList = [
   },
   {
     "word": "Android",
-    "definition": "Android is an operating system built by Google designed for mobile devices."
+    "definition": "Android is an operating system built by Google designed for mobile devices.",
+    "wikiFix": "Android_(operating_system)"
   },
   {
     "word": "CSV",
@@ -629,7 +633,8 @@ export const wordList = [
   },
   {
     "word": "Array",
-    "definition": "An array is a group of related data values (called elements) that are grouped together. All of the array elements must be the same data type"
+    "definition": "An array is a group of related data values (called elements) that are grouped together. All of the array elements must be the same data type",
+    "wikiFix": "Array_data_type"
   },
   {
     "word": "Backend",
