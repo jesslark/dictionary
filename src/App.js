@@ -21,10 +21,13 @@ function App() {
   };
 
   const detectDuplicateWords = (content) => {
-    content.map( (entry,i) => {
-      if (content[i+1] && content[i].word == content[i+1].word){
-        entry.word = "Possible duplicate entry, please review "+entry.word
+    let lastWord = ''
+
+    content.map( (entry) => {
+      if (entry.word === lastWord){
+        entry.error = " duplicate"
       }
+      lastWord = entry.word
     });
     return content;
   };
@@ -51,7 +54,7 @@ function App() {
     const htmlEntries = entries.map( (entry, i) => {
       return (
         <div className="entry" key={i}>
-          <h3 className="word">{entry.word}</h3>
+          <h3 className={`word${entry.error ? entry.error : ''}`}>{entry.word}</h3>
           <p dangerouslySetInnerHTML={{ __html: entry.definition }} className="definition">
           </p>
           <p className='wikilinks'>
