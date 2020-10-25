@@ -5,7 +5,8 @@ import { wordList } from './dictionary.js'
 function App() {
   const formatContent = (content) => {
     let formattedContent = alphabetizeContent(content);
-    return formatMultipleDefinitions(formattedContent);
+    formattedContent = formatMultipleDefinitions(content);
+    return detectDuplicateWords(formattedContent);
   }
 
   const alphabetizeContent = (content) => {
@@ -14,6 +15,15 @@ function App() {
         return 1;
       } else {
         return -1;
+      }
+    });
+    return content;
+  };
+
+  const detectDuplicateWords = (content) => {
+    content.map( (entry,i) => {
+      if (content[i+1] && content[i].word == content[i+1].word){
+        entry.word = "Possible duplicate entry, please review "+entry.word
       }
     });
     return content;
