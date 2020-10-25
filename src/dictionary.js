@@ -48,14 +48,6 @@ export const wordList = [
     "definition": "Amazon Web Services - popular cloud computing provider."
   },
   {
-    "word": "API",
-    "definition": "A set of functions and procedures that allow the creation of applications which access the features or data of an operating system, application, or other service."
-  },
-  {
-    "word": "AWS",
-    "definition": "Amazon Web Services - popular cloud computing provider."
-  },
-  {
     "word": "Babel",
     "definition": "Babel is a compiler for writing next generation JavaScript, today."
   },
@@ -189,15 +181,11 @@ export const wordList = [
   },
   {
     "word": "CSS",
-    "definition": "'Cascading Style Sheets' is a style sheet language used for describing the look (e.g. colors, sizes, spacing, etc) document written in an online markup language"
+    "definition": "Cascading Style Sheets is a language used for describing the look (e.g. colors, sizes, spacing, etc) of a document written in an online markup language."
   },
   {
     "word": "Database",
     "definition": "A database is an organized collection of data. More specifically, a database is an electronic system that allows data to be easily accessed, manipulated and updated."
-  },
-  {
-    "word": "Discord",
-    "definition": "Discord is a free voice, video, and text chat app for teens and adults ages 13 and up."
   },
   {
     "word": "Data Science",
@@ -686,10 +674,6 @@ export const wordList = [
   {
     "word": "software-engineer",
     "definition": "A person who designs and implements software solutions."
-  },
-  {
-    "word": "CSS",
-    "definition": "Cascading Style Sheet. Used to style HTML documents with font colors, margins, link decorations, and more."
   },
   {
     "word": "Graph database",
