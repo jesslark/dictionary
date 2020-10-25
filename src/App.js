@@ -24,9 +24,9 @@ function App() {
       if ( Array.isArray(entry.definition) ) {
         let definitionItems = '';
         entry.definition.forEach( (definition) => {
-          definitionItems += `<li>${definition}</li>`;
+          definitionItems += `<p>${definition}</p>`;
         })
-        entry.definition = `<ol>${definitionItems}</ol>`;
+        entry.definition = `<p>${definitionItems}</p>`;
       }
     })
     return content;
