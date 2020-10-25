@@ -58,12 +58,12 @@ export const wordList = [
   {
     "word": "Bash",
     "definition": "Bash is a shell and command language interpreter for the GNU operating system.",
-    "wikiLink": "Bash_(Unix_shell)"
+    "wikilink": "Bash_(Unix_shell)"
   },
   {
     "word": "Django",
     "definition": "Django is a web application framework for Python.",
-    "wikiLink": "Django_(web_framework)"
+    "wikilink": "Django_(web_framework)"
   },
   {
     "word": "Discord",
@@ -80,7 +80,7 @@ export const wordList = [
   {
     "word": "Ember",
     "definition": "Ember is a framework for creating web applications.",
-    "wikiLink": "Ember.js"
+    "wikilink": "Ember.js"
   },
   {
     "word": "Ethereum",
@@ -157,7 +157,7 @@ export const wordList = [
   {
     "word": "C#",
     "definition": "Pronounced 'C-Sharp' - A general-purpose object-oriented programming language developed by Microsoft.",
-    "wikiLink": "C_Sharp_(programming_language)"
+    "wikilink": "C_Sharp_(programming_language)"
   },
   {
     "word": "Apache Cassandra",
@@ -202,7 +202,7 @@ export const wordList = [
   {
     "word": "DDD",
     "definition": "Domain-driven design is an approach to software development for complex needs by connecting the implementation to an evolving model. The premise of domain-driven design is the following: <ul class='browser-default'><li>placing the project's primary focus on the core domain and domain logic;</li><li>basing complex designs on a model of the domain;</li><li>initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.</li></ul>",
-    "wikiLink": "Domain-driven_design"
+    "wikilink": "Domain-driven_design"
   },
   {
     "word": "Debugging",
@@ -211,7 +211,7 @@ export const wordList = [
   {
     "word": "Dev",
     "definition": ["Short for 'Developer'.", "Short for 'Development'. e.g. Game Dev, Web Dev"],
-    "wikiLink": "Dev#Technology"
+    "wikilink": "Dev#Technology"
   },
   {
     "word": "Developer",
@@ -224,12 +224,12 @@ export const wordList = [
   {
     "word": "Docker",
     "definition": "Docker is a platform built for developers to build and run applications.",
-    "wikiLink": "Docker_(software)"
+    "wikilink": "Docker_(software)"
   },
   {
     "word": "DOM",
     "definition": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects.",
-    "wikiLink": "Document_Object_Model"
+    "wikilink": "Document_Object_Model"
   },
   {
     "word": "Elixir",
@@ -238,12 +238,12 @@ export const wordList = [
   {
     "word": "Elm",
     "definition": "A Delightful Language for Reliable Webapps.",
-    "wikiLink": "Elm_(programming_language)"
+    "wikilink": "Elm_(programming_language)"
   },
   {
     "word": "Esoteric Programming Language",
     "definition": "A programming language designed to push the boundaries of computer programming language design, as a proof of concept, as software art, or as a joke.",
-    "wikiLink": "Esoteric_programming_language"
+    "wikilink": "Esoteric_programming_language"
   },
   {
     "word": "Firmware",
@@ -268,7 +268,7 @@ export const wordList = [
   {
     "word": "Go",
     "definition": "Go is an open source programming language, created at Google. You can use it to write back-end code for Mac, Windows and Linux that is highly performant. It is sometimes referred to as 'Golang' to make it easier to Google.",
-    "wikiLink": "Go_(programming_language)"
+    "wikilink": "Go_(programming_language)"
   },
   {
     "word": "GraphQL",
@@ -277,7 +277,7 @@ export const wordList = [
   {
     "word": "Gulp",
     "definition": "A task runner for JavaScript that allows you to automate a variety of time-consuming tasks.",
-    "wikiLink": "gulp.js"
+    "wikilink": "gulp.js"
   },
   {
     "word": "HTML",
@@ -294,7 +294,7 @@ export const wordList = [
   {
     "word": "HELM",
     "definition": "Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources.",
-    "wikiLink": "Kubernetes"
+    "wikilink": "Kubernetes"
   },
   {
     "word": "IDE",
@@ -312,7 +312,7 @@ export const wordList = [
   {
     "word": "Java",
     "definition": "A general-purpose object-oriented programming language.",
-    "wikiLink": "Java_(programming_language)"
+    "wikilink": "Java_(programming_language)"
   },
   {
     "word": "JavaScript",
@@ -325,7 +325,7 @@ export const wordList = [
   {
     "word": "Kebab Case",
     "definition": "Using dashes instead of spaces for a group of words. Mainly used for variables or CSS classes. e.g. my-new-variable.",
-    "wikiLink": "Naming_convention_(programming)#Delimiter-separated_words"
+    "wikilink": "Naming_convention_(programming)#Delimiter-separated_words"
   },
   {
     "word": "LAN",
@@ -338,7 +338,7 @@ export const wordList = [
   {
     "word": "Library",
     "definition": "A library is a collection of precompiled routines that a program can use. The routines, sometimes called modules, are stored in object format. Libraries are particularly useful for storing frequently used routines because you do not need to explicitly link them to every program that uses them.",
-    "wikiLink": "Library_(computing)"
+    "wikilink": "Library_(computing)"
   },
   {
     "word": "Linux",
@@ -582,7 +582,7 @@ export const wordList = [
   {
     "word": "Android",
     "definition": "Android is an operating system built by Google designed for mobile devices.",
-    "wikiLink": "Android_(operating_system)"
+    "wikilink": "Android_(operating_system)"
   },
   {
     "word": "CSV",
@@ -647,7 +647,7 @@ export const wordList = [
   {
     "word": "Array",
     "definition": "An array is a group of related data values (called elements) that are grouped together. All of the array elements must be the same data type",
-    "wikiLink": "Array_data_type"
+    "wikilink": "Array_data_type"
   },
   {
     "word": "Backend",
@@ -748,7 +748,7 @@ export const wordList = [
   {
     "word": "Model View Controller (MVC)",
     "definition": "MVC is a software pattern to organise code. It separate the logic for data representation and data handling.",
-    "wikiLink": "Model–view–controller"
+    "wikilink": "Model–view–controller"
   },
   {
     "word": "MongoDB",
