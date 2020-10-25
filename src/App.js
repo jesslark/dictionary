@@ -58,7 +58,7 @@ function App() {
           <p dangerouslySetInnerHTML={{ __html: entry.definition }} className="definition">
           </p>
           <p className='wikilinks'>
-            <a href={`https://en.wikipedia.org/wiki/${entry.wikiFix ? entry.wikiFix : entry.word}`} target="_blank" rel="noreferrer noopener">Visit Wikipedia - {entry.word}</a>
+            <a href={`https://en.wikipedia.org/wiki/${entry.wikiLink ? entry.wikiLink : entry.word}`} target="_blank" rel="noreferrer noopener">Visit Wikipedia - {entry.word}</a>
           </p>
         </div>
       )
