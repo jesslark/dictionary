@@ -5,7 +5,8 @@ import { wordList } from './dictionary.js'
 function App() {
   const formatContent = (content) => {
     let formattedContent = alphabetizeContent(content);
-    return formatMultipleDefinitions(formattedContent);
+    formattedContent = formatMultipleDefinitions(content);
+    return detectDuplicateWords(formattedContent);
   }
 
   const alphabetizeContent = (content) => {
@@ -15,6 +16,18 @@ function App() {
       } else {
         return -1;
       }
+    });
+    return content;
+  };
+
+  const detectDuplicateWords = (content) => {
+    let lastWord = ''
+
+    content.map( (entry) => {
+      if (entry.word === lastWord){
+        entry.error = " duplicate"
+      }
+      lastWord = entry.word
     });
     return content;
   };
@@ -41,7 +54,7 @@ function App() {
     const htmlEntries = entries.map( (entry, i) => {
       return (
         <div className="entry" key={i}>
-          <h3 className="word">{entry.word}</h3>
+          <h3 className={`word${entry.error ? entry.error : ''}`}>{entry.word}</h3>
           <p dangerouslySetInnerHTML={{ __html: entry.definition }} className="definition">
           </p>
           <p className='wikilinks'>
