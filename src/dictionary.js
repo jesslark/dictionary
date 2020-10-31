@@ -60,6 +60,10 @@ export const wordList = [
     "definition": "Bash is a shell and command language interpreter for the GNU operating system."
   },
   {
+    "word": "BOFH",
+    "definition": "Bastard Operator From Hell."
+  },
+  {
     "word": "Django",
     "definition": "Django is a web application framework for Python."
   },
