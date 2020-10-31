@@ -61,7 +61,7 @@ export const wordList = [
   },
   {
     "word": "BOFH",
-    "definition": "Bastard Operator From Hell."
+    "definition": "Bastard Operator From Hell. Nickname given to system administrators with misanthropic tendancies by those with lower user privileges."
   },
   {
     "word": "Django",
