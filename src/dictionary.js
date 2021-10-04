@@ -477,6 +477,14 @@ export const wordList = [
     "definition": "A server is a computer program or a device that provides functionality for other programs or devices, called 'clients'. This architecture is called the client–server model, and a single overall computation is distributed across multiple processes or devices."
   },
   {
+    "word": "Serverless",
+    "definition": "Serverless is a Cloud Computing term, which refers to abstracting away the provisioning and managing of infrastructure required to run your code; the physical servers still exist, but they are offered as a service by your cloud provider."
+  },
+  {
+    "word": "AWS Lambda",
+    "definition": "AWS Lambda is an on-demand serverless compute service provided by Amazon Web Services, which allows you to run code."
+  },
+  {
     "word": "SDK",
     "definition": "Software Developers Kit. A collection of tools or programs used by devlopers."
   },
