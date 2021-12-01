@@ -61,6 +61,11 @@ export const wordList = [
     "wikilink": "Bash_(Unix_shell)"
   },
   {
+    "word": "CFP",
+    "definition": "Call for Papers - a formal event where companies and individuals can submit proposals to give presentations at events on a particular project, topic, or service",
+    "wikilink": "https://en.wikipedia.org/wiki/Call_for_papers"
+  },
+  {
     "word": "Django",
     "definition": "Django is a web application framework for Python.",
     "wikilink": "Django_(web_framework)"
@@ -804,3 +809,18 @@ export const wordList = [
     "definition": "Quantum computing is the use of the unique behavior of quantum physics and applying it to computing"
   }
 ]
+{
+  "word"; "YAML",
+  "definition"; "YAML (short for Yet Another Markdown Language or YAML Ain't Markup Launguage) YAML™ (rhymes with “camel”) is a human-friendly, cross language, Unicode based data serialization language designed around the common native data types of dynamic programming languages."
+  "wikilink"; "https://en.wikipedia.org/wiki/YAML"
+}
+{
+  "word"; "K8s",
+  "definition"; "K8s (short for Kubernetes) is an open-source container orchestrator that uses a combination of containers and virtual machines to deploy, schedule, and manage applications across a cluster of servers. Kubernetes is a distributed system that uses a shared configuration and state model, and is designed to be highly available and fault-tolerant."
+  "wikilink"; "https://en.wikipedia.org/wiki/Kubernetes"
+}
+{
+  "word"; "Markdown",
+  "definition"; "Markdown is a lightweight markup language, originally created for the web, that is easy to read and write. It is a plain text format that is used to create documents that are accessible to people with disabilities, and to create documents that are easy to read and write."
+  "wikilink"; "https://en.wikipedia.org/wiki/Markdown"
+}
