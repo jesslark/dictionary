@@ -1,6 +1,6 @@
 # Dictionary for Devs
 
-Dictionary for Devs was an idea created by Jess Mear and used as a project by the Phoenix React Meetup Group. Later, during Hacktobertfest 2018, Jess started a fresh approach to the DFD as a shallow dive into open source. The DFD is a collection of terms, phrases, and acronyms that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.
+Dictionary for Devs was an idea created by Jess Lark and used as a project by the Phoenix React Meetup Group. Later, during Hacktobertfest 2018, Jess started a fresh approach to the DFD as a shallow dive into open source. The DFD is a collection of terms, phrases, and acronyms that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.
 
 ## How to Contribute
 
