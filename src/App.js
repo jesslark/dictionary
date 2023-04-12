@@ -111,7 +111,7 @@ function App() {
 
       <div className="header">
         <div className="container">
-          <h1>Dictionary for Developers!</h1>
+          <h1>Dictionary for Developers</h1>
           <div className="switch">
             <label>
               Dark
