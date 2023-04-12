@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "nvm": "^0.0.4"
   }
 }
