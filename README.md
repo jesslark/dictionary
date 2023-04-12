@@ -4,7 +4,7 @@ Dictionary for Devs was an idea created by Jess Lark and used as a project by th
 
 ## How to Contribute
 
-- Offer a new definition or a new feature. Use the 'Resources' guide below to learn how to make a PR. 
+- Offer a new definition or a new feature. Use the 'Resources' guide below to learn how to make a PR.
 
 ## Resources
 - How to do your first pull request: https://github.com/jessmear/dictionary-for-devs/blob/master/pull-request-basics.md
@@ -36,15 +36,23 @@ Add links to defs where appropriate
 
 July 2019: Port project into React
 October 2018: Move definitions out of HTML and into external file
-October 2018: Initialize project 
+October 2018: Initialize project
 
-# Create React App 
+# Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
+
+This uses the package.json file to install dependencies.
+
+### `nvm use`
+
+This uses the `.nvmrc` file to set node to the currently supported version. If you encounter an error, make sure you have NVM installed. Visit https://nvm.sh to learn more.
 
 ### `npm start`
 
