@@ -2,9 +2,29 @@
 
 Dictionary for Devs was an idea created by Jess Lark and used as a project by the Phoenix React Meetup Group. Later, during Hacktobertfest 2018, Jess started a fresh approach to the DFD as a shallow dive into open source. The DFD is a collection of terms, phrases, and acronyms that are assumed knowledge in the dev community but may be unfamiliar to new, or even seasoned, developers.
 
-## How to Contribute
+## Note to Windows Users
+
+This file was written by someone using a Mac, and should work for Linux and Mac users. Please be aware that some things will be different for Windows users. Feel free to add additional information or create a whole separate Windows readme file. Thanks!
+
+## What to Contribute
 
 - Offer a new definition or a new feature. Use the 'Resources' guide below to learn how to make a PR.
+
+### Contributing Cheat Sheet
+# (in progress, please update if an error is found, or to add additonal context or details)
+
+Start: clone the code and switch into the new directory
+
+At the command line:
+- `npm i`
+- `nvm use`
+- `npm start`
+- make a new branch
+- make changes
+- `npm run build` (this step is important, your changes will be in the repo but not deployed to the web app without it)
+- commit and push changes
+- make a pull request
+
 
 ## Resources
 - How to do your first pull request: https://github.com/jessmear/dictionary-for-devs/blob/master/pull-request-basics.md
