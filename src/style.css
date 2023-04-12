@@ -1,160 +1,167 @@
-body {
-  font-family: 'Chivo', sans-serif;
+:root {
+    --color-neutral-dark: #282c34;
+    --color-neutral-light: #ffffff;
+    --color-accent: #42a5f5;
+    --ff-primary: "Chivo", sans-serif;
+    --ff-secondary: "Turret Road", cursive;
+    --fs-400: 16px;
+    --fs-700: 2.4rem;
+    --spacer: 20px;
 }
 
+body {
+    font-family: var(--ff-primary);
+}
 
 h1 {
-  font-family: 'Turret Road', cursive;
+    font-family: var(--ff-secondary);
 }
 
 .header,
 .footer {
-  width: 100%;
-  background: #42a5f5;
-  padding: 20px 0;
+    width: 100%;
+    background: var(--color-accent);
+    padding: var(--spacer) 0;
 }
 
 .footer {
-  height: 100px;
-  margin-top: 20px;
+    height: 100px;
+    margin-top: var(--spacer);
 }
 
-.content{
-flex: 1;
+.content {
+    flex: 1;
 }
-
 
 #dictionary {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .entry {
-  box-sizing: border-box;
-  width: 25%;
-  padding: 0;
-  margin: 30px 60px 0 0;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 0;
+    margin: 30px 60px 0 0;
 }
 
 .word {
-  font-size: 2.4rem;
-  border-bottom: #42a5f5 4px solid;
-  padding: 10px 5px;
-  margin-top: 0;
-  font-family: 'Turret Road', cursive;
+    font-size: var(--fs-700);
+    border-bottom: var(--color-accent) 4px solid;
+    padding: 10px 5px;
+    margin-top: 0;
+    font-family: var(--ff-secondary);
 }
-.duplicate{
-  color: red;
+.duplicate {
+    color: red;
 }
 
 .definition {
-  margin-top: -5px;
-  font-size: 16px;
-  line-height: 21px;
+    margin-top: -5px;
+    font-size: var(--fs-400);
+    line-height: 21px;
 }
 
 .wikilinks a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .wikilinks a {
-  font-style: italic ;
-  background-color: black;
-  border-radius: 8px;
-  padding: 1px 5px;
+    font-style: italic;
+    background-color: black;
+    border-radius: 8px;
+    padding: 1px 5px;
 }
 
 .light .wikilinks a {
-    color: #282c34;
+    color: var(--color-neutral-dark);
     background-color: rgba(187, 199, 231, 0.253);
 }
 
-
 #scroll-top {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  
-  }
-  #scroll-top rect {
-  fill: #42a5f5;
-  stroke-width: 1;
-  stroke: #FFFFFF;
-  cursor: pointer;
-  
-  }
-  #scroll-top polyline {
-    stroke: #FFFFFF;
-    fill:none;
-    stroke-width:3;
-    cursor: pointer;
-  }
-  /* Fix for Issue #70*/
-  @media(max-width:950px) {
-  .entry {
-    width: 40%;
-  }
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
-@media(max-width: 676px) {
-  .entry {
-    width: 100%;
-  }
+#scroll-top rect {
+    fill: var(--color-accent);
+    stroke-width: 1;
+    stroke: var(--color-neutral-light);
+    cursor: pointer;
+}
+#scroll-top polyline {
+    stroke: var(--color-neutral-light);
+    fill: none;
+    stroke-width: 3;
+    cursor: pointer;
+}
+/* Fix for Issue #70*/
+@media (max-width: 950px) {
+    .entry {
+        width: 40%;
+    }
+}
+@media (max-width: 676px) {
+    .entry {
+        width: 100%;
+    }
 }
 
 a {
-  color: white;
+    color: var(--color-neutral-light);
+}
+
+.dark,
+.light {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .dark {
-  background: #282c34;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    background: var(--color-neutral-dark);
+    color: var(--color-neutral-light);
 }
 
 .light {
-  background: white;
-  color: #282c34;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    background: var(--color-neutral-light);
+    color: var(--color-neutral-dark);
 }
 
 .light label {
-  color: navy;
+    color: navy;
 }
 
 .switch {
-  position: absolute;
-  right: 20px;
-  top: 20px;
+    position: absolute;
+    right: var(--spacer);
+    top: var(--spacer);
 }
 
 .switch label {
-  color: white;
+    color: var(--color-neutral-light);
 }
 
 .switch label input[type="checkbox"] + .lever::after {
-  background: darkblue;
+    background: darkblue;
 }
 
 .switch label .lever {
-  background: #333;
+    background: #333;
 }
 
 .switch label input[type="checkbox"]:checked + .lever {
-  background: lightskyblue;
+    background: lightskyblue;
 }
 
 .switch label input[type="checkbox"]:checked + .lever::after {
-  background: white;
+    background: var(--color-neutral-light);
 }
 
 .light #search {
-  color: #282c34;
+    color: var(--color-neutral-dark);
 }
 
 .dark #search {
-  color: white;
+    color: var(--color-neutral-light);
 }
