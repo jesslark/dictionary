@@ -61,6 +61,10 @@ export const wordList = [
     "wikilink": "Bash_(Unix_shell)"
   },
   {
+    "word": "BOFH",
+    "definition": "Bastard Operator From Hell. Nickname given to system administrators with misanthropic tendancies by those with lower user privileges."
+  },
+  {
     "word": "Django",
     "definition": "Django is a web application framework for Python.",
     "wikilink": "Django_(web_framework)"
